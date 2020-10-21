@@ -8,16 +8,16 @@
 **联邦平均算法：**
 * ___Server___ 端初始化模型参数：___initialize___ $w_0$
 * 每个更新轮次(___each round___):
-    - 选取本轮参与的用户数 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>m</mi><mo stretchy="false">⇐</mo><mi>m</mi><mi>a</mi><mi>x</mi><mo stretchy="false">(</mo><mi>C</mi><mo>⋅</mo><mi>K</mi><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></math>
-    - 将其打乱顺序为集合 $S_t:(random\ set\ of \ m\  clients)$
-        * 对于每个用户 $k \in S_t$，并行计算
-            - $w^k_{t+1}\leftarrow ClientUpdate(k,w_t)$
-        * $w^k_{t+1} \leftarrow \sum^K_{k=1} \frac{n_k}{n}w_{t+1}^k$
+    - 选取本轮参与的用户数：<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>m</mi><mo stretchy="false">⇐</mo><mi>m</mi><mi>a</mi><mi>x</mi><mo stretchy="false">(</mo><mi>C</mi><mo>⋅</mo><mi>K</mi><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></math>
+    - 将其打乱顺序为集合：<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>S</mi><mi>t</mi></msub><mo>:</mo><mo stretchy="false">(</mo><mi>r</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>o</mi><mi>m</mi><mtext>&nbsp;</mtext><mi>s</mi><mi>e</mi><mi>t</mi><mtext>&nbsp;</mtext><mi>o</mi><mi>f</mi><mtext>&nbsp;</mtext><mi>m</mi><mtext>&nbsp;</mtext><mi>c</mi><mi>l</mi><mi>i</mi><mi>e</mi><mi>n</mi><mi>t</mi><mi>s</mi><mo stretchy="false">)</mo></math>
+        * 对于每个用户 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>k</mi><mo>∈</mo><msub><mi>S</mi><mi>t</mi></msub></math>，并行计算
+            - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msubsup><mi>w</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow><mi>k</mi></msubsup><mo stretchy="false">←</mo><mi>C</mi><mi>l</mi><mi>i</mi><mi>e</mi><mi>n</mi><mi>t</mi><mi>U</mi><mi>p</mi><mi>d</mi><mi>a</mi><mi>t</mi><mi>e</mi><mo stretchy="false">(</mo><mi>k</mi><mo>,</mo><msub><mi>w</mi><mi>t</mi></msub><mo stretchy="false">)</mo></math>
+        * <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msubsup><mi>w</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow><mi>k</mi></msubsup><mo stretchy="false">←</mo><munderover><mo data-mjx-texclass="OP">∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>K</mi></munderover><mfrac><msub><mi>n</mi><mi>k</mi></msub><mi>n</mi></mfrac><msubsup><mi>w</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow><mi>k</mi></msubsup></math>
 
 * ___Client___ 端更新：___ClientUpdate(k,w_t)___
-    * 将每个 ___client___ 的数据按照 ___batch_size___ 划分为 **B** 组.  $\mathcal{B}\leftarrow(split\ \mathcal{P}_k\ into\ batches\ of\ size\ B)$
-    * 每个 ___epoch___ 的每个 ___batch___ 更新一次本地权重. $w\leftarrow w-\eta \cdot \nabla \mathbb{l}(w;b)$
-    * ___return $w$ to server___
+    * 将每个 ___client___ 的数据按照 ___batch_size___ 划分为 **B** 组.  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi data-mjx-variant="-tex-calligraphic" mathvariant="script">B</mi></mrow><mo stretchy="false">←</mo><mo stretchy="false">(</mo><mi>s</mi><mi>p</mi><mi>l</mi><mi>i</mi><mi>t</mi><mtext>&nbsp;</mtext><msub><mrow><mi data-mjx-variant="-tex-calligraphic" mathvariant="script">P</mi></mrow><mi>k</mi></msub><mtext>&nbsp;</mtext><mi>i</mi><mi>n</mi><mi>t</mi><mi>o</mi><mtext>&nbsp;</mtext><mi>b</mi><mi>a</mi><mi>t</mi><mi>c</mi><mi>h</mi><mi>e</mi><mi>s</mi><mtext>&nbsp;</mtext><mi>o</mi><mi>f</mi><mtext>&nbsp;</mtext><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi><mtext>&nbsp;</mtext><mi>B</mi><mo stretchy="false">)</mo></math>
+    * 每个 ___epoch___ 的每个 ___batch___ 更新一次本地权重. <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>w</mi><mo stretchy="false">←</mo><mi>w</mi><mo>−</mo><mi>η</mi><mo>⋅</mo><mi mathvariant="normal">∇</mi><mrow><mi data-mjx-variant="-tex-calligraphic" mathvariant="script">l</mi></mrow><mo stretchy="false">(</mo><mi>w</mi><mo>;</mo><mi>b</mi><mo stretchy="false">)</mo></math>
+    * ___return w to server___
 
 ## 文献参考  
 ### 1. 文献综述
