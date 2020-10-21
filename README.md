@@ -8,7 +8,7 @@
 **联邦平均算法：**
 * ___Server___ 端初始化模型参数：___initialize___ $w_0$
 * 每个更新轮次(___each round___):
-    - 选取本轮参与的用户数 $m\Leftarrow max(C\cdot K,1)$
+    - 选取本轮参与的用户数 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>m</mi><mo stretchy="false">⇐</mo><mi>m</mi><mi>a</mi><mi>x</mi><mo stretchy="false">(</mo><mi>C</mi><mo>⋅</mo><mi>K</mi><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></math>
     - 将其打乱顺序为集合 $S_t:(random\ set\ of \ m\  clients)$
         * 对于每个用户 $k \in S_t$，并行计算
             - $w^k_{t+1}\leftarrow ClientUpdate(k,w_t)$
