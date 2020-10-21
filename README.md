@@ -21,9 +21,15 @@
 ### 3. 针对模型和数据隐私的攻击/保护
 * [Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://eprint.iacr.org/2017/281.pdf)
 ### 4. 数据分布不均、数据异构
+* [FedPD: A Federated Learning Framework with Optimal Rates andAdaptivity to Non-IID Data](https://arxiv.org/pdf/2005.11418.pdf)
+* [Communication-Efficient On-Device Machine Learning:Federated Distillation and Augmentationunder Non-IID Private Data](https://arxiv.org/pdf/1811.11479v1.pdf)
+
+* [Federated Adversarial Domain Adaptation](https://arxiv.org/abs/1911.02054)
+* [Federated Learning with Only Positive Labels](https://arxiv.org/pdf/2004.10342.pdf)
 ### 5. 激励机制
 * [Fair Resource Allocation in Federated Learning](https://arxiv.org/pdf/1905.10497v1.pdf)
 ### 6. 其他
-* [Federated Adversarial Domain Adaptation](https://arxiv.org/abs/1911.02054)
 * [Federated Learning with Matched Averaging](https://arxiv.org/abs/2002.06440)
 * [Bayesian Nonparametric Federated Learning of Neural Networks](https://arxiv.org/abs/1905.12022v1)
+* [Multi-Center Federated Learning](https://arxiv.org/pdf/2005.01026.pdf)
+* [FedGAN: Federated Generative Adversarial Networks for Distributed Data](https://arxiv.org/pdf/2006.07228.pdf)
