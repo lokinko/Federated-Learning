@@ -11,7 +11,7 @@
     - 选取本轮参与的用户数：<a href="https://www.codecogs.com/eqnedit.php?latex=m\Leftarrow&space;max(C\cdot&space;K,1)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?m\Leftarrow&space;max(C\cdot&space;K,1)" title="m\Leftarrow max(C\cdot K,1)" /></a>
     - 将其打乱顺序为集合：<a href="https://www.codecogs.com/eqnedit.php?latex=S_t:(random\&space;set\&space;of&space;\&space;m\&space;clients)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?S_t:(random\&space;set\&space;of&space;\&space;m\&space;clients)" title="S_t:(random\ set\ of \ m\ clients)" /></a>
         * 对于每个用户 <a href="https://www.codecogs.com/eqnedit.php?latex=k&space;\in&space;S_t" target="_blank"><img src="https://latex.codecogs.com/svg.latex?k&space;\in&space;S_t" title="k \in S_t" /></a>，并行计算  
-                - <a href="https://www.codecogs.com/eqnedit.php?latex=w^k_{t&plus;1}\leftarrow&space;ClientUpdate(k,w_t)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?w^k_{t&plus;1}\leftarrow&space;ClientUpdate(k,w_t)" title="w^k_{t+1}\leftarrow ClientUpdate(k,w_t)" /></a>
+    <a href="https://www.codecogs.com/eqnedit.php?latex=w^k_{t&plus;1}\leftarrow&space;ClientUpdate(k,w_t)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?w^k_{t&plus;1}\leftarrow&space;ClientUpdate(k,w_t)" title="w^k_{t+1}\leftarrow ClientUpdate(k,w_t)" /></a>
         * <a href="https://www.codecogs.com/eqnedit.php?latex=w^k_{t&plus;1}&space;\leftarrow&space;\sum^K_{k=1}&space;\frac{n_k}{n}w_{t&plus;1}^k" target="_blank"><img src="https://latex.codecogs.com/svg.latex?w^k_{t&plus;1}&space;\leftarrow&space;\sum^K_{k=1}&space;\frac{n_k}{n}w_{t&plus;1}^k" title="w^k_{t+1} \leftarrow \sum^K_{k=1} \frac{n_k}{n}w_{t+1}^k" /></a>
 
 * ___Client___ 端更新：___ClientUpdate(k,w_t)___
