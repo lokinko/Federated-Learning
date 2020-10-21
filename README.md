@@ -16,12 +16,16 @@
 * [Survey of Personalization Techniques for Federated Learning](https://arxiv.org/pdf/2003.08673.pdf)
   
 ### 2. Communication-Efficient & Converge fast
-* [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/pdf/1602.05629.pdf) 
+* [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/pdf/1602.05629.pdf)
+* [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/pdf/2007.07682.pdf)
 * [Federated Learning for Wireless Communications: Motivation, Opportunities and Challenges](https://arxiv.org/pdf/1908.06847v3.pdf)
 ### 3. 针对模型和数据隐私的攻击/保护
 * [Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://eprint.iacr.org/2017/281.pdf)
 ### 4. 数据分布不均、数据异构
 * [FedPD: A Federated Learning Framework with Optimal Rates andAdaptivity to Non-IID Data](https://arxiv.org/pdf/2005.11418.pdf)
+* [Decentralized Learning of Generative Adversarial Networks from Non-iid Data](https://arxiv.org/pdf/1905.09684.pdf)
+
+* [Towards Class Imbalance in Federated Learning](https://arxiv.org/pdf/2008.06217.pdf)
 * [Communication-Efficient On-Device Machine Learning:Federated Distillation and Augmentationunder Non-IID Private Data](https://arxiv.org/pdf/1811.11479v1.pdf)
 
 * [Federated Adversarial Domain Adaptation](https://arxiv.org/abs/1911.02054)
@@ -33,3 +37,4 @@
 * [Bayesian Nonparametric Federated Learning of Neural Networks](https://arxiv.org/abs/1905.12022v1)
 * [Multi-Center Federated Learning](https://arxiv.org/pdf/2005.01026.pdf)
 * [FedGAN: Federated Generative Adversarial Networks for Distributed Data](https://arxiv.org/pdf/2006.07228.pdf)
+* [Generative models for effective ML on private decentralized datasets](https://arxiv.org/pdf/1911.06679.pdf)
