@@ -6,7 +6,7 @@
 **联邦学习是一种 <font color=#B22222>隐私保护、数据本地存储与计算</font> 的机器学习算法。**
 
 **联邦平均算法：**
-* ___Server___ 端初始化模型参数：___initialize___ <a href="https://www.codecogs.com/eqnedit.php?latex=w_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_0" title="w_0" /></a>
+* ___Server___ 端初始化模型参数：___initialize___ <a href="https://www.codecogs.com/eqnedit.php?latex=w_0" target="_blank"><img src="https://latex.codecogs.com/svg.latex?w_0" title="w_0" /></a>
 * 每个更新轮次(___each round___):
     - 选取本轮参与的用户数：<a href="https://www.codecogs.com/eqnedit.php?latex=m\Leftarrow&space;max(C\cdot&space;K,1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\Leftarrow&space;max(C\cdot&space;K,1)" title="m\Leftarrow max(C\cdot K,1)" /></a>
     - 将其打乱顺序为集合：<a href="https://www.codecogs.com/eqnedit.php?latex=S_t:(random\&space;set\&space;of&space;\&space;m\&space;clients)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_t:(random\&space;set\&space;of&space;\&space;m\&space;clients)" title="S_t:(random\ set\ of \ m\ clients)" /></a>
