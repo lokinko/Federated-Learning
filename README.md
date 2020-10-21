@@ -7,9 +7,6 @@
 
 联邦学习是一种 ___隐私保护、数据本地存储与计算___ 的机器学习算法。
 
-**联邦平均算法:**
-![FedAvg Algorithm](https://github.com/lokinko/Federated-Learning/blob/main/pictures/FedAvg.png?raw=true)
-
 ## 文献参考  
 ### 1. 文献综述
 * [Advances and Open Problems in Federated Learning](https://arxiv.org/pdf/1912.04977.pdf)
