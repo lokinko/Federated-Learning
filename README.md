@@ -1,6 +1,23 @@
 # Federated Learning
 
 >*人工智能（Artificial Intelligence, AI）进入以深度学习为主导的大数据时代，基于大数据的机器学习既推动了AI的蓬勃发展，也带来了一系列安全隐患。这些隐患来源于深度学习本身的学习机制，无论是在它的模型建造（训练）阶段，还是在模型推理和使用阶段。这些安全隐患如果被有意或无意地滥用，后果将十分严重。*
+---
+
+**联邦学习是一种 <font color=#B22222>隐私保护、数据本地存储与计算</font> 的机器学习算法。**
+
+**联邦平均算法：**
+* Server 端初始化模型参数：___initialize___ $w_0$
+* 每个更新轮次(___each round___):
+    - 选取本轮参与的用户数 $m\Leftarrow max(C\cdot K,1)$
+    - 将其打乱顺序为集合 $S_t:(random\ set\ of \ m\  clients)$
+        * 对于每个用户 $k \in S_t$，并行计算
+            - $w^k_{t+1}\leftarrow ClientUpdate(k,w_t)$
+        * $w^k_{t+1} \leftarrow \sum^K_{k=1} \frac{n_k}{n}w_{t+1}^k$
+
+* ___Client___ 端更新：___ClientUpdate(k,w_t)___
+    * 将每个 ___client___ 的数据按照 ___batch_size___ 划分为 **B** 组.  $\mathcal{B}\leftarrow(split\ \mathcal{P}_k\ into\ batches\ of\ size\ B)$
+    * 每个 ___epoch___ 的每个 ___batch___ 更新一次本地权重. $w\leftarrow w-\eta \cdot \nabla \mathbb{l}(w;b)$
+    * ___return $w$ to server___
 
 ## 文献参考  
 ### 1. 文献综述
