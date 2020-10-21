@@ -6,7 +6,7 @@
 **联邦学习是一种 <font color=#B22222>隐私保护、数据本地存储与计算</font> 的机器学习算法。**
 
 **联邦平均算法：**
-* ___Server___ 端初始化模型参数：___initialize___ $w_0$
+* ___Server___ 端初始化模型参数：___initialize___ <a href="https://www.codecogs.com/eqnedit.php?latex=w_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_0" title="w_0" /></a>
 * 每个更新轮次(___each round___):
     - 选取本轮参与的用户数：<a href="https://www.codecogs.com/eqnedit.php?latex=m\Leftarrow&space;max(C\cdot&space;K,1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m\Leftarrow&space;max(C\cdot&space;K,1)" title="m\Leftarrow max(C\cdot K,1)" /></a>
     - 将其打乱顺序为集合：<a href="https://www.codecogs.com/eqnedit.php?latex=S_t:(random\&space;set\&space;of&space;\&space;m\&space;clients)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_t:(random\&space;set\&space;of&space;\&space;m\&space;clients)" title="S_t:(random\ set\ of \ m\ clients)" /></a>
@@ -15,9 +15,9 @@
         * <a href="https://www.codecogs.com/eqnedit.php?latex=w^k_{t&plus;1}&space;\leftarrow&space;\sum^K_{k=1}&space;\frac{n_k}{n}w_{t&plus;1}^k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w^k_{t&plus;1}&space;\leftarrow&space;\sum^K_{k=1}&space;\frac{n_k}{n}w_{t&plus;1}^k" title="w^k_{t+1} \leftarrow \sum^K_{k=1} \frac{n_k}{n}w_{t+1}^k" /></a>
 
 * ___Client___ 端更新：___ClientUpdate(k,w_t)___
-    * 将每个 ___client___ 的数据按照 ___batch_size___ 划分为 **B** 组.  $\mathcal{B}\leftarrow(split\ \mathcal{P}_k\ into\ batches\ of\ size\ B)$
-    * 每个 ___epoch___ 的每个 ___batch___ 更新一次本地权重. $w\leftarrow w-\eta \cdot \nabla \mathbb{l}(w;b)$
-    * ___return $w$ to server___
+    * 将每个 ___client___ 的数据按照 ___batch_size___ 划分为 **B** 组.  <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{B}\leftarrow(split\&space;\mathcal{P}_k\&space;into\&space;batches\&space;of\&space;size\&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{B}\leftarrow(split\&space;\mathcal{P}_k\&space;into\&space;batches\&space;of\&space;size\&space;B)" title="\mathcal{B}\leftarrow(split\ \mathcal{P}_k\ into\ batches\ of\ size\ B)" /></a>
+    * 每个 ___epoch___ 的每个 ___batch___ 更新一次本地权重. <a href="https://www.codecogs.com/eqnedit.php?latex=w\leftarrow&space;w-\eta&space;\cdot&space;\nabla&space;\mathbb{l}(w;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w\leftarrow&space;w-\eta&space;\cdot&space;\nabla&space;\mathbb{l}(w;b)" title="w\leftarrow w-\eta \cdot \nabla \mathbb{l}(w;b)" /></a>
+    * ___return w to server___
 
 ## 文献参考  
 ### 1. 文献综述
