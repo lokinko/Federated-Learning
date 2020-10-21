@@ -6,7 +6,7 @@
 **联邦学习是一种 <font color=#B22222>隐私保护、数据本地存储与计算</font> 的机器学习算法。**
 
 **联邦平均算法：**
-* Server 端初始化模型参数：___initialize___ $w_0$
+* ___Server___ 端初始化模型参数：___initialize___ $w_0$
 * 每个更新轮次(___each round___):
     - 选取本轮参与的用户数 $m\Leftarrow max(C\cdot K,1)$
     - 将其打乱顺序为集合 $S_t:(random\ set\ of \ m\  clients)$
