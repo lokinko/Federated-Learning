@@ -9,7 +9,7 @@
 # 文献参考
 
 
-## Part1: Introduction
+## Part 1: Introduction
 * [Federated Learning Comic](https://federated.withgoogle.com/)
 * [Federated Learning: Collaborative Machine Learning without Centralized Training Data ](http://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
 * [GDPR, Data Shotrage and AI (AAAI-19)](https://aaai.org/Conferences/AAAI-19/invited-speakers/#yang)
@@ -17,7 +17,7 @@
 * [Federated Learning White Paper V1.0](https://www.fedai.org/static/flwp-en.pdf)
 * [Federated learning: distributed machine learning with data locality and privacy](https://blog.fastforwardlabs.com/2018/11/14/federated-learning.html)
 
-## Part2: Survey
+## Part 2: Survey
 * [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873)
 * [Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://arxiv.org/abs/1907.09693)
 * [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/abs/1909.11875)
@@ -28,14 +28,14 @@
 * [Threats to Federated Learning: A Survey](https://arxiv.org/pdf/2003.02133.pdf)
 * [Survey of Personalization Techniques for Federated Learning](https://arxiv.org/pdf/2003.08673.pdf)
 
-## Part3: Benchmarks
+## Part 3: Benchmarks
 * [LEAF: A Benchmark for Federated Settings](https://arxiv.org/abs/1812.01097)](https://github.com/TalwalkarLab/leaf) [Recommend]
 * [A Performance Evaluation of Federated Learning Algorithms](https://www.researchgate.net/profile/Gregor_Ulm/publication/329106719_A_Performance_Evaluation_of_Federated_Learning_Algorithms/links/5c0fabcfa6fdcc494febf907/A-Performance-Evaluation-of-Federated-Learning-Algorithms.pdf)
 * [Edge AIBench: Towards Comprehensive End-to-end Edge Computing Benchmarking](https://arxiv.org/abs/1908.01924)
 
 
 
-## Part4: Model Aggregation
+## Part 4: Model Aggregation
 * [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
 * [Federated Learning with Unbiased Gradient Aggregation and Controllable Meta Updating ](https://arxiv.org/abs/1910.08234) (NIPS 2019 Workshop)
 * [Bayesian Nonparametric Federated Learning of Neural Networks](https://arxiv.org/abs/1905.12022) (ICML 2019)
@@ -45,7 +45,7 @@
 
 
 
-## Part5: Statistical Heterogeneity
+## Part 5: Statistical Heterogeneity
 * [FedPD: A Federated Learning Framework with Optimal Rates andAdaptivity to Non-IID Data](https://arxiv.org/pdf/2005.11418.pdf)
 * [Decentralized Learning of Generative Adversarial Networks from Non-iid Data](https://arxiv.org/pdf/1905.09684.pdf)
 * [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/pdf/1910.07796.pdf)
@@ -109,7 +109,7 @@
 * [Convergence of Distributed Stochastic Variance Reduced Methods without Sampling Extra Data](https://arxiv.org/abs/1905.12648) [NIPS 2019 Workshop]
 
 
-## Part6: System
+## Part 6: System
 * [Towards Federated Learning at Scale: System Design](https://arxiv.org/abs/1902.01046) **[Must Read]**
 * [Demonstration of Federated Learning in a Resource-Constrained Networked Environment](https://ieeexplore.ieee.org/document/8784064)
 * [Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://arxiv.org/abs/1907.09693)
@@ -117,7 +117,7 @@
 * [Federated Learning and Differential Privacy: Software tools analysis, the Sherpa.ai FL framework and methodological guidelines for preserving data privacy](https://arxiv.org/abs/2007.00914) (Startup)
 
 
-## Part7: Communication Efficiency
+## Part 7: Communication Efficiency
 * [*Communication-Efficient Learning of Deep Networks from Decentralized Data*](https://arxiv.org/abs/1602.05629)](https://github.com/roxanneluo/Federated-Learning) [Google] **[Must Read]**
 * [Two-Stream Federated Learning: Reduce the Communication Costs](https://ieeexplore.ieee.org/document/8698609) [2018 IEEE VCIP] 
 * [Client-Edge-Cloud Hierarchical Federated Learning](https://arxiv.org/abs/1905.06641)
@@ -155,7 +155,7 @@
 * [𝙳𝚎𝚎𝚙𝚂𝚚𝚞𝚎𝚎𝚣𝚎: Decentralization Meets Error-Compensated Compression](https://arxiv.org/abs/1907.07346) Hanlin Tang, Xiangru Lian, Shuang Qiu, Lei Yuan, Ce Zhang, Tong Zhang, and Ji Liu, 2019
 
 
-## Part8: Resource Allocation
+## Part 8: Resource Allocation
 
 ### 8.1 Participants Selection
 
@@ -180,15 +180,15 @@
 * [Incentive Design for Efficient Federated Learning in Mobile Networks: A Contract Theory Approach [2019]](https://arxiv.org/abs/1905.07479)
 * [Fair Resource Allocation in Federated Learning](https://arxiv.org/pdf/1905.10497v1.pdf)
 
-## Part9: Vertical Federated Learning
+## Part 9: Vertical Federated Learning
 
 * [A Quasi-Newton Method Based Vertical Federated Learning Framework for Logistic Regression](https://arxiv.org/abs/1912.00513) [NIPS 2019 Workshop]
 
-## Part10: Adversarial Attacks
+## Part 10: Adversarial Attacks
 * [Can You Really Backdoor Federated Learning?](https://arxiv.org/abs/1911.07963)
 * [Model Poisoning Attacks in Federated Learning](https://dais-ita.org/sites/default/files/main_secml_model_poison.pdf) [NIPS workshop 2018]
 
-## Part11: Data Privacy and Confidentiality
+## Part 11: Data Privacy and Confidentiality
 
 * [Gradient-Leaks: Understanding and Controlling Deanonymization in Federated Learning](https://arxiv.org/abs/1805.05838) [NIPS 2019 Workshop]
 * [Quantification of the Leakage in Federated Learning](https://arxiv.org/pdf/1910.05467.pdf)
@@ -255,7 +255,7 @@
 * [Chameleon: A Hybrid Secure Computation Framework for Machine Learning Applications](https://arxiv.org/pdf/1801.03239.pdf)
 
 
-## Part12: Other Learning
+## Part 12: Other Learning
 
 * [Federated Reinforcement Learning](https://arxiv.org/abs/1901.08277)
 * [Secure Federated Transfer Learning](https://arxiv.org/abs/1812.03337)
@@ -266,7 +266,7 @@
 * [Generative models for effective ML on private decentralized datasets](https://arxiv.org/pdf/1911.06679.pdf)
 * [FEDFMC: Sequential efficient Federated Learning on Non-IID data](https://arxiv.org/pdf/2006.10937v1.pdf) 
 
-## Part13: Frameworks
+## Part 13: Frameworks
 
 * [PySyft](https://github.com/OpenMined/PySyft)
   * [A Generic Framework for Privacy Preserving Peep Pearning](https://arxiv.org/abs/1811.04017)
@@ -276,14 +276,14 @@
 * [Nvidia Clara SDK](https://developer.nvidia.com/clara)
 
 
-## Part14: Workshops
+## Part 14: Workshops
 
 * [NIPS 2019 Workshop on Federated Learning for Data Privacy and Confidentiality 1](https://slideslive.com/38921898/workshop-on-federated-learning-for-data-privacy-and-confidentiality-1)
 * [NIPS 2019 Workshop on Federated Learning for Data Privacy and Confidentiality 2](https://slideslive.com/38921899/workshop-on-federated-learning-for-data-privacy-and-confidentiality-2)
 * [NIPS 2019 Workshop on Federated Learning for Data Privacy and Confidentiality 3](https://slideslive.com/38921900/workshop-on-federated-learning-for-data-privacy-and-confidentiality-3)
 
 
-## Part15: Applications
+## Part 15: Applications
 
 * [Federated Learning Approach for Mobile Packet Classification](https://arxiv.org/abs/1907.13113)
 * [Federated Learning for Ranking Browser History Suggestions](https://arxiv.org/abs/1911.11807) [NIPS 2019 Workshop]
@@ -345,7 +345,7 @@ Snips
 * [Firefox Search Bar](https://florian.github.io/federated-learning/)
   * Detail explaination of their implementationn of Federated Learning in production.
 
-## Part16: Company
+## Part 16: Company
 
 * [Privacy.ai](https://privacy.ai/)
 * [OpenMined](https://www.openmined.org/)
