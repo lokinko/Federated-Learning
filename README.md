@@ -48,7 +48,6 @@
 ## Part 5: Statistical Heterogeneity
 * [FedPD: A Federated Learning Framework with Optimal Rates andAdaptivity to Non-IID Data](https://arxiv.org/pdf/2005.11418.pdf)
 * [Decentralized Learning of Generative Adversarial Networks from Non-iid Data](https://arxiv.org/pdf/1905.09684.pdf)
-* [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/pdf/1910.07796.pdf)
 * [Towards Class Imbalance in Federated Learning](https://arxiv.org/pdf/2008.06217.pdf)
 * [Communication-Efficient On-Device Machine Learning:Federated Distillation and Augmentationunder Non-IID Private Data](https://arxiv.org/pdf/1811.11479v1.pdf)
 * [Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization](https://arxiv.org/pdf/2007.07481.pdf)
@@ -89,7 +88,6 @@
 
 ### 5.3 Convergence
 * [A Linear Speedup Analysis of Distributed Deep Learning with Sparse and Quantized Communication](https://papers.nips.cc/paper/7519-a-linear-speedup-analysis-of-distributed-deep-learning-with-sparse-and-quantized-communication) [NIPS 2018]
-* [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/pdf/1602.05629.pdf)
 * [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/pdf/2007.07682.pdf)
 * [Federated Learning for Wireless Communications: Motivation, Opportunities and Challenges](https://arxiv.org/pdf/1908.06847v3.pdf)
 * [On the Convergence of FedAvg on Non-IID Data](https://arxiv.org/pdf/1907.02189.pdf)
