@@ -11,7 +11,7 @@
 
 ## Part 1: Introduction
 * [Federated Learning Comic](https://federated.withgoogle.com/)
-* [Federated Learning: Collaborative Machine Learning without Centralized Training Data ](http://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
+* [Federated Learning: Collaborative Machine Learning without Centralized Training Data](http://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
 * [GDPR, Data Shotrage and AI (AAAI-19)](https://aaai.org/Conferences/AAAI-19/invited-speakers/#yang)
 * [Federated Learning: Machine Learning on Decentralized Data (Google I/O'19)](https://www.youtube.com/watch?v=89BGjQYA0uE)
 * [Federated Learning White Paper V1.0](https://www.fedai.org/static/flwp-en.pdf)
@@ -27,6 +27,18 @@
 * [Federated Machine Learning: Concept and Applications](https://arxiv.org/pdf/1902.04885.pdf)
 * [Threats to Federated Learning: A Survey](https://arxiv.org/pdf/2003.02133.pdf)
 * [Survey of Personalization Techniques for Federated Learning](https://arxiv.org/pdf/2003.08673.pdf)
+* [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/pdf/2006.06217.pdf)
+* [From Federated Learning to Fog Learning: Towards Large-Scale Distributed Machine Learning in Heterogeneous Wireless Networks](https://arxiv.org/pdf/2006.03594.pdf)
+* [Federated Learning for 6G Communications: Challenges, Methods, and Future Directions](https://arxiv.org/pdf/2006.02931.pdf)
+* [A Review of Privacy Preserving Federated Learning for Private IoT Analytics](https://arxiv.org/pdf/2004.11794.pdf)
+* [Towards Utilizing Unlabeled Data in Federated Learning: A Survey and Prospective](https://arxiv.org/pdf/2002.11545.pdf)
+* [Federated Learning for Resource-Constrained IoT Devices: Panoramas and State-of-the-art](https://arxiv.org/pdf/2002.10610.pdf)
+* [Privacy-Preserving Blockchain Based Federated Learning with Differential Data Sharing](https://arxiv.org/pdf/1912.04859.pdf)
+* [An Introduction to Communication Efficient Edge Machine Learning](https://arxiv.org/pdf/1912.01554.pdf)
+* [Federated Learning for Healthcare Informatics](https://arxiv.org/pdf/1911.06270.pdf)
+* [Federated Learning for Coalition Operations](https://arxiv.org/pdf/1910.06799.pdf)
+* [No Peek: A Survey of private distributed deep learning](https://arxiv.org/pdf/1812.03288.pdf)
+* [Communication-Efficient Edge AI: Algorithms and Systems](http://arxiv.org/pdf/2002.09668.pdf)
 
 ## Part 3: Benchmarks
 * [LEAF: A Benchmark for Federated Settings](https://arxiv.org/abs/1812.01097)](https://github.com/TalwalkarLab/leaf) [Recommend]
@@ -34,15 +46,13 @@
 * [Edge AIBench: Towards Comprehensive End-to-end Edge Computing Benchmarking](https://arxiv.org/abs/1908.01924)
 
 
-
 ## Part 4: Model Aggregation
 * [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
-* [Federated Learning with Unbiased Gradient Aggregation and Controllable Meta Updating ](https://arxiv.org/abs/1910.08234) (NIPS 2019 Workshop)
+* [Federated Learning with Unbiased Gradient Aggregation and Controllable Meta Updating](https://arxiv.org/abs/1910.08234) (NIPS 2019 Workshop)
 * [Bayesian Nonparametric Federated Learning of Neural Networks](https://arxiv.org/abs/1905.12022) (ICML 2019)
 * [Agnostic Federated Learning](https://arxiv.org/abs/1902.00146) (ICML 2019)
 * [Federated Learning with Matched Averaging](https://openreview.net/forum?id=BkluqlSFDS) (ICLR 2020)
 * [Astraea: Self-balancing federated learning for improving classification accuracy of mobile deep learning applications](https://arxiv.org/abs/1907.01132)
-
 
 
 ## Part 5: Statistical Heterogeneity
@@ -59,21 +69,50 @@
 * [FedMD: Heterogenous Federated Learning via Model Distillation](https://arxiv.org/abs/1910.03581) (NIPS 2019 Workshop)
 * [First Analysis of Local GD on Heterogeneous Data](https://arxiv.org/abs/1909.04715)
 * [SCAFFOLD: Stochastic Controlled Averaging for On-Device Federated Learning](https://arxiv.org/abs/1910.06378)
-* [Federated Optimization for Heterogeneous Networks](https://arxiv.org/pdf/1812.06127)
-* [On the Convergence of FedAvg on Non-IID Data](https://arxiv.org/abs/1907.02189) [[OpenReview]](https://openreview.net/forum?id=HJxNAnVtDS)
-* [Agnostic Federated Learning](https://arxiv.org/abs/1902.00146) (ICML 2019)
-* [Local SGD Converges Fast and Communicates Little](https://arxiv.org/abs/1805.09767)
 * [Improving Federated Learning Personalization via Model Agnostic Meta Learning](https://arxiv.org/abs/1909.12488) (NIPS 2019 Workshop)
-* [Adaptive Gradient-Based Meta-Learning Methods](https://arxiv.org/abs/1906.02717) (NIPS 2019 Workshop)
-* [Federated Adversarial Domain Adaptation](https://arxiv.org/abs/1911.02054) (ICLR 2020)
 * [LoAdaBoost: Loss-Based AdaBoost Federated Machine Learning on Medical Data](https://arxiv.org/pdf/1811.12629)
 * [On Federated Learning of Deep Networks from Non-IID Data: Parameter Divergence and the Effects of Hyperparametric Methods](https://openreview.net/forum?id=SJeOAJStwB) [Rejected in ICML 2020]
 * [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/abs/1910.07796) [NIPS 2019 Workshop]
 * [FedMAX: Activation Entropy Maximization Targeting Effective Non-IID Federated Learning](#workshop) [NIPS 2019 Workshop]
-* [Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification](https://arxiv.org/abs/1909.06335) [NIPS 2019 Workshop]
-* [Fair Resource Allocation in Federated Learning](https://arxiv.org/abs/1905.10497)
-* [Communication-efficient on-device machine learning: Federated distillation and augmentation under non-iid private data](https://arxiv.org/abs/1811.11479)
-* [Think Locally, Act Globally: Federated Learning with Local and Global Representations](https://arxiv.org/abs/2001.01523) [NIPS 2019 Workshop]
+* [Adaptive Federated Optimization. ICLR 2021 (Under Review). 2020-02-29](https://arxiv.org/pdf/2003.00295.pdf)
+* [Stochastic, Distributed and Federated Optimization for Machine Learning. FL PhD Thesis. By Jakub](https://arxiv.org/pdf/1707.01155.pdf)
+* [Collaborative Deep Learning in Fixed Topology Networks](https://arxiv.org/pdf/1706.07880.pdf)
+* [FedCD: Improving Performance in non-IID Federated Learning. 2020](https://arxiv.org/pdf/2006.09637.pdf)
+* [Life Long Learning: FedFMC: Sequential Efficient Federated Learning on Non-iid Data. 2020](https://arxiv.org/pdf/2006.10937.pdf)
+* [Robust Federated Learning: The Case of Affine Distribution Shifts. 2020](https://arxiv.org/pdf/2006.08907.pdf)
+* [Personalized Federated Learning with Moreau Envelopes. 2020](https://arxiv.org/pdf/2006.08848.pdf)
+* [Ensemble Distillation for Robust Model Fusion in Federated Learning. 2020](https://arxiv.org/pdf/2006.07242.pdf)Researcher: Tao Lin, ZJU, EPFL https://tlin-tao-lin.github.io/index.html
+* [Towards Flexible Device Participation in Federated Learning for Non-IID Data. 2020](https://arxiv.org/pdf/2006.06954.pdf)Keywords: inactive or return incomplete updates in non-IID dataset
+* [XOR Mixup: Privacy-Preserving Data Augmentation for One-Shot Federated Learning. 2020](https://arxiv.org/pdf/2006.05148.pdf)
+* [NeurIPS 2020 submission: An Efficient Framework for Clustered Federated Learning. 2020](https://arxiv.org/pdf/2006.04088.pdf)Researcher: AVISHEK GHOSH, UCB, PhD
+* [Continual Local Training for Better Initialization of Federated Models. 2020](https://arxiv.org/pdf/2005.12657.pdf)
+* [FedPD: A Federated Learning Framework with Optimal Rates and Adaptivity to Non-IID Data. 2020](https://arxiv.org/pdf/2005.11418.pdf)Researcher: Wotao Yin, UCLA
+* [Global Multiclass Classification from Heterogeneous Local Models. 2020](https://arxiv.org/pdf/2005.10848.pdf)Researcher: Stanford https://stanford.edu/~pilanci/
+* [Multi-Center Federated Learning. 2020](https://arxiv.org/pdf/2005.01026.pdf)
+* [Federated Semi-Supervised Learning with Inter-Client Consistency. 2020](https://arxiv.org/pdf/2006.12097.pdf)
+* [(*) FedMAX: Mitigating Activation Divergence for Accurate and Communication-Efficient Federated Learning. CMU ECE. 2020-04-07](https://arxiv.org/pdf/2004.03657.pdf)
+* [(*) Adaptive Personalized Federated Learning](https://arxiv.org/pdf/2003.13461.pdf)
+* [Semi-Federated Learning](https://arxiv.org/pdf/2003.12795.pdf)
+* [Device Heterogeneity in Federated Learning: A Superquantile Approach. 2020-02](https://arxiv.org/pdf/2002.11223.pdf)
+* [Personalized Federated Learning for Intelligent IoT Applications: A Cloud-Edge based Framework](https://arxiv.org/pdf/2002.10671.pdf)
+* [Three Approaches for Personalization with Applications to Federated Learning](https://arxiv.org/pdf/2002.10619.pdf)
+* [Personalized Federated Learning: A Meta-Learning Approach](https://arxiv.org/pdf/2002.07948.pdf)
+* [Towards Federated Learning: Robustness Analytics to Data Heterogeneity](https://arxiv.org/pdf/2002.05038.pdf)Highlight: non-IID + adversarial attacks
+* [Salvaging Federated Learning by Local Adaptation](https://arxiv.org/pdf/2002.04758.pdf)Highlight: an experimental paper that evaluate FL can help to improve the local accuracy
+* [FOCUS: Dealing with Label Quality Disparity in Federated Learning. 2020-01](https://arxiv.org/pdf/2001.11359.pdf)
+* [Overcoming Noisy and Irrelevant Data in Federated Learning. ICPR 2020.](https://arxiv.org/pdf/2001.08300.pdf)
+* [Real-Time Edge Intelligence in the Making: A Collaborative Learning Framework via Federated Meta-Learning. 2020-01](https://arxiv.org/pdf/2001.03229.pdf)
+* [(*) Think Locally, Act Globally: Federated Learning with Local and Global Representations. NeurIPS 2019 Workshop on Federated Learning distinguished student paper award](https://arxiv.org/pdf/2001.01523.pdf)
+* [Federated Learning with Personalization Layers](https://arxiv.org/pdf/1912.00818.pdf)
+* [Federated Evaluation of On-device Personalization](https://arxiv.org/pdf/1910.10252.pdf)
+* [Measure Contribution of Participants in Federated Learning](https://arxiv.org/pdf/1909.08525.pdf)
+* [(*) Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification](https://arxiv.org/pdf/1909.06335.pdf)
+* [Multi-hop Federated Private Data Augmentation with Sample Compression](https://arxiv.org/pdf/1907.06426.pdf)
+* [Distributed Training with Heterogeneous Data: Bridging Median- and Mean-Based Algorithms](https://arxiv.org/pdf/1906.01736.pdf)
+* [High Dimensional Restrictive Federated Model Selection with multi-objective Bayesian Optimization over shifted distributions](https://arxiv.org/pdf/1902.08999.pdf)
+* [Robust Federated Learning Through Representation Matching and Adaptive Hyper-parameters](https://arxiv.org/pdf/1912.13075.pdf)
+* [Towards Efficient Scheduling of Federated Mobile Devices under Computational and Statistical Heterogeneity](https://arxiv.org/pdf/2005.12326.pdf)
+* [Client Adaptation improves Federated Learning with Simulated Non-IID Clients](https://arxiv.org/pdf/2007.04806.pdf)
 
 ### 5.1 Meta Learning
 * [Federated Meta-Learning with Fast Convergence and Efficient Communication](https://arxiv.org/abs/1802.07876)
@@ -85,40 +124,71 @@
 * [Variational Federated Multi-Task Learning](https://arxiv.org/abs/1906.06268)
 * [Federated Kernelized Multi-Task Learning](https://mlsys.org/Conferences/2019/doc/2018/30.pdf)
 * [Clustered Federated Learning: Model-Agnostic Distributed Multi-Task Optimization under Privacy Constraints](https://arxiv.org/abs/1910.01991) [NIPS 2019 Workshop]
+* [Local Stochastic Approximation: A Unified View of Federated Learning and Distributed Multi-Task Reinforcement Learning Algorithms](https://arxiv.org/pdf/2006.13460.pdf)
 
 ### 5.3 Convergence
 * [A Linear Speedup Analysis of Distributed Deep Learning with Sparse and Quantized Communication](https://papers.nips.cc/paper/7519-a-linear-speedup-analysis-of-distributed-deep-learning-with-sparse-and-quantized-communication) [NIPS 2018]
 * [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/pdf/2007.07682.pdf)
-* [Federated Learning for Wireless Communications: Motivation, Opportunities and Challenges](https://arxiv.org/pdf/1908.06847v3.pdf)
-* [On the Convergence of FedAvg on Non-IID Data](https://arxiv.org/pdf/1907.02189.pdf)
-* [SCAFFOLD: Stochastic Controlled Averaging for On-Device Federated Learning](https://arxiv.org/abs/1910.06378)
 * [Federated Optimization for Heterogeneous Networks](https://arxiv.org/pdf/1812.06127)
 * [On the Convergence of FedAvg on Non-IID Data](https://arxiv.org/abs/1907.02189) [[OpenReview]](https://openreview.net/forum?id=HJxNAnVtDS)
-* [Can Decentralized Algorithms Outperform Centralized Algorithms? A Case Study for Decentralized Parallel Stochastic Gradient Descent](https://arxiv.org/abs/1705.09056) [NIPS 2017]
 * [Communication Efficient Decentralized Training with Multiple Local Updates](https://arxiv.org/abs/1910.09126)
-* [First Analysis of Local GD on Heterogeneous Data](https://arxiv.org/abs/1909.04715)
-* [MATCHA: Speeding Up Decentralized SGD via Matching Decomposition Sampling](https://arxiv.org/abs/1905.09435)
 * [Local SGD Converges Fast and Communicates Little](https://arxiv.org/abs/1805.09767)
 * [SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum](https://arxiv.org/abs/1910.00643)
-* [Adaptive Federated Learning in Resource Constrained Edge Computing Systems](https://arxiv.org/abs/1804.05271) [IEEE Journal on Selected Areas in Communications, 2019]
 * [Parallel Restarted SGD with Faster Convergence and Less Communication: Demystifying Why Model Averaging Works for Deep Learning](https://arxiv.org/abs/1807.06629) [AAAI 2018]
 * [On the Linear Speedup Analysis of Communication Efficient Momentum SGD for Distributed Non-Convex Optimization](https://arxiv.org/abs/1905.03817) [ICML 2019]
 * [Communication-efficient on-device machine learning: Federated distillation and augmentation under non-iid private data](https://arxiv.org/abs/1811.11479)
 * [Convergence of Distributed Stochastic Variance Reduced Methods without Sampling Extra Data](https://arxiv.org/abs/1905.12648) [NIPS 2019 Workshop]
 
+## 5.4 Hierarchical FL
+* [Client-Edge-Cloud Hierarchical Federated Learning](https://arxiv.org/pdf/1905.06641.pdf)
+* [(FL startup: Tongdun, HangZhou, China) Knowledge Federation: A Unified and Hierarchical Privacy-Preserving AI Framework. 2020-02](https://arxiv.org/pdf/2002.01647.pdf)
+* [HFEL: Joint Edge Association and Resource Allocation for Cost-Efficient Hierarchical Federated Edge Learning](https://arxiv.org/pdf/2002.11343.pdf)
+* [Hierarchical Federated Learning Across Heterogeneous Cellular Networks](https://arxiv.org/pdf/1909.02362.pdf)
+* [Enhancing Privacy via Hierarchical Federated Learning](https://arxiv.org/pdf/2004.11361.pdf)
+* [Federated learning with hierarchical clustering of local updates to improve training on non-IID data. 2020](https://arxiv.org/pdf/2004.11791.pdf)
+* [Federated Hierarchical Hybrid Networks for Clickbait Detection](https://arxiv.org/pdf/1906.00638.pdf)
+
+## 5.5 Transfer Learning
+* [Secure Federated Transfer Learning. IEEE Intelligent Systems 2018.](https://arxiv.org/pdf/1812.03337.pdf)
+* [Secure and Efficient Federated Transfer Learning](https://arxiv.org/pdf/1910.13271.pdf)
+* [Wireless Federated Distillation for Distributed Edge Learning with Heterogeneous Data](https://arxiv.org/pdf/1907.02745.pdf)
+* [Proxy Experience Replay: Federated Distillation for Distributed Reinforcement Learning. 2020](https://arxiv.org/pdf/2005.06105.pdf)
+* [Cooperative Learning via Federated Distillation over Fading Channels](https://arxiv.org/pdf/2002.01337.pdf)
+* [(*) Cronus: Robust and Heterogeneous Collaborative Learning with Black-Box Knowledge Transfer](https://arxiv.org/pdf/1912.11279.pdf)
+* [Federated Reinforcement Distillation with Proxy Experience Memory](https://arxiv.org/pdf/1907.06536.pdf)
 
 ## Part 6: System
 * [Towards Federated Learning at Scale: System Design](https://arxiv.org/abs/1902.01046) **[Must Read]**
 * [Demonstration of Federated Learning in a Resource-Constrained Networked Environment](https://ieeexplore.ieee.org/document/8784064)
-* [Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://arxiv.org/abs/1907.09693)
 * [Applied Federated Learning: Improving Google Keyboard Query Suggestions](https://arxiv.org/abs/1812.02903)
 * [Federated Learning and Differential Privacy: Software tools analysis, the Sherpa.ai FL framework and methodological guidelines for preserving data privacy](https://arxiv.org/abs/2007.00914) (Startup)
+* [Towards Federated Learning at Scale: System Design](https://arxiv.org/pdf/1902.01046.pdf)
+* [FedML: A Research Library and Benchmark for Federated Machine Learning](https://arxiv.org/pdf/2007.13518.pdf)
+* [FLeet: Online Federated Learning via Staleness Awareness and Performance Prediction](https://arxiv.org/pdf/2006.07273.pdf)Researcher: Georgios Damaskinos, MLSys, https://people.epfl.ch/georgios.damaskinos?lang=en
+* [Heterogeneity-Aware Federated Learning](https://arxiv.org/pdf/2006.06983.pdf)Researcher: Mengwei Xu, PKU. Responsive Web User Interface to Recover Training Data from User Gradients in Federated Learning https://ldp-machine-learning.herokuapp.com/
+* [Decentralised Learning from Independent Multi-Domain Labels for Person Re-Identification](https://arxiv.org/pdf/2006.04150.pdf)
+* [[startup] Industrial Federated Learning -- Requirements and System Design](https://arxiv.org/pdf/2005.06850.pdf)
+* [(startup) Federated Learning and Differential Privacy: Software tools analysis, the Sherpa.ai FL framework and methodological guidelines for preserving data privacy](https://arxiv.org/pdf/2007.00914.pdf)
+* [(*) TiFL: A Tier-based Federated Learning System. HPDC 2020 (High-Performance Parallel and Distributed Computing).](https://arxiv.org/pdf/2001.09249.pdf)
+* [FMore: An Incentive Scheme of Multi-dimensional Auction for Federated Learning in MEC. ICDCS 2020 (2020 International Conference on Distributed Computing Systems)](https://arxiv.org/pdf/2002.09699.pdf)
+* [Adaptive Gradient Sparsification for Efficient Federated Learning: An Online Learning Approach. ICDCS 2020 (2020 International Conference on Distributed Computing Systems)](https://arxiv.org/pdf/2001.04756.pdf)
+* [Quantifying the Performance of Federated Transfer Learning](https://arxiv.org/pdf/1912.12795.pdf)
+* [ELFISH: Resource-Aware Federated Learning on Heterogeneous Edge Devices](https://arxiv.org/pdf/1912.01684.pdf)
+* [Privacy is What We Care About: Experimental Investigation of Federated Learning on Edge Devices](https://arxiv.org/pdf/1911.04559.pdf)
+* [Substra: a framework for privacy-preserving, traceable and collaborative Machine Learning](https://arxiv.org/pdf/1910.11567.pdf)
+* [BAFFLE : Blockchain Based Aggregator Free Federated Learning](https://arxiv.org/pdf/1909.07452.pdf)
+* [Functional Federated Learning in Erlang (ffl-erl)](https://arxiv.org/pdf/1808.08143.pdf)
+* [HierTrain: Fast Hierarchical Edge AI Learning With Hybrid Parallelism in Mobile-Edge-Cloud Computing](https://arxiv.org/pdf/2003.09876.pdf)
 
+## 6.1 Neural Architecture Search
+* [FedNAS: Federated Deep Learning via Neural Architecture Search. CVPR 2020. 2020-04-18](https://arxiv.org/pdf/2004.08546.pdf
+* [Real-time Federated Evolutionary Neural Architecture Search. 2020-03](https://arxiv.org/pdf/2003.02793.pdf)
+* [Federated Neural Architecture Search. 2020-06-14](https://arxiv.org/pdf/2002.06352.pdf)
+* [Differentially-private Federated Neural Architecture Search. 2020-06](https://arxiv.org/pdf/2006.10559.pdf)
 
 ## Part 7: Communication Efficiency
 * [*Communication-Efficient Learning of Deep Networks from Decentralized Data*](https://arxiv.org/abs/1602.05629)](https://github.com/roxanneluo/Federated-Learning) [Google] **[Must Read]**
 * [Two-Stream Federated Learning: Reduce the Communication Costs](https://ieeexplore.ieee.org/document/8698609) [2018 IEEE VCIP] 
-* [Client-Edge-Cloud Hierarchical Federated Learning](https://arxiv.org/abs/1905.06641)
 * [PowerSGD: Practical Low-Rank Gradient Compression for Distributed Optimization](https://arxiv.org/abs/1905.13727) [NIPS 2019], Thijs Vogels, Sai Praneeth Karimireddy, and Martin Jaggi. 
 * [Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training](https://arxiv.org/abs/1712.01887) [ICLR 2018] Yujun Lin, Song Han, Huizi Mao, Yu Wang, and William J Dally
 * [The Error-Feedback Framework: Better Rates for SGD with Delayed Gradients and Compressed Communication](https://arxiv.org/abs/1909.05350) Sebastian U Stich and Sai Praneeth Karimireddy, 2019.
@@ -126,9 +196,58 @@
 * [Active Federated Learning](https://arxiv.org/abs/1909.12641) [NIPS 2019 Workshop]
 * [Communication-Efficient Distributed Optimization in Networks with Gradient Tracking and Variance Reduction](https://arxiv.org/abs/1909.05844) [NIPS 2019 Workshop]
 * [Gradient Descent with Compressed Iterates](https://arxiv.org/abs/1909.04716) [NIPS 2019 Workshop]
+* [LAG: Lazily Aggregated Gradient for Communication-Efficient Distributed Learning](https://arxiv.org/abs/1805.09965)
+* [Exact Support Recovery in Federated Regression with One-shot Communication](https://arxiv.org/pdf/2006.12583.pdf)
+* [DEED: A General Quantization Scheme for Communication Efficiency in Bits](https://arxiv.org/pdf/2006.11401.pdf)Researcher: Ruoyu Sun, UIUC
+* [Personalized Federated Learning with Moreau Envelopes](https://arxiv.org/pdf/2006.08848.pdf)
+* [Towards Flexible Device Participation in Federated Learning for Non-IID Data](https://arxiv.org/pdf/2006.06954.pdf)Keywords: inactive or return incomplete updates in non-IID dataset
+* [A Primal-Dual SGD Algorithm for Distributed Nonconvex Optimization](https://arxiv.org/pdf/2006.03474.pdf)
+* [FedSplit: An algorithmic framework for fast federated optimization](https://arxiv.org/pdf/2005.05238.pdf)
+* [Distributed Stochastic Non-Convex Optimization: Momentum-Based Variance Reduction](https://arxiv.org/pdf/2005.00224.pdf)
+* [On the Outsized Importance of Learning Rates in Local Update Methods](https://arxiv.org/pdf/2007.00878.pdf)Highlight: local model learning rate optimization + automation Researcher: Jakub
+* [Federated Learning with Compression: Unified Analysis and Sharp Guarantees](https://arxiv.org/pdf/2007.01154.pdf)Highlight: non-IID, gradient compression + local SGD Researcher: Mehrdad Mahdavi, Jin Rong’s PhD Student http://www.cse.psu.edu/~mzm616/
+* [From Local SGD to Local Fixed-Point Methods for Federated Learning](https://arxiv.org/pdf/2004.01442.pdf)
+* [Federated Residual Learning. 2020-03](https://arxiv.org/pdf/2003.12880.pdf)
+* [Acceleration for Compressed Gradient Descent in Distributed and Federated Optimization. ICML 2020.](https://arxiv.org/pdf/2002.11364.pdf)
+* [LASG: Lazily Aggregated Stochastic Gradients for Communication-Efficient Distributed Learning](https://arxiv.org/pdf/2002.11360.pdf)
+* [Uncertainty Principle for Communication Compression in Distributed and Federated Learning and the Search for an Optimal Compressor](https://arxiv.org/pdf/2002.08958.pdf)
+* [Dynamic Federated Learning](https://arxiv.org/pdf/2002.08782.pdf)
+* [Distributed Optimization over Block-Cyclic Data](https://arxiv.org/pdf/2002.07454.pdf)
+* [Distributed Non-Convex Optimization with Sublinear Speedup under Intermittent Client Availability](https://arxiv.org/pdf/2002.07399.pdf)
+* [Federated Learning of a Mixture of Global and Local Models](https://arxiv.org/pdf/2002.05516.pdf)
+* [Faster On-Device Training Using New Federated Momentum Algorithm](https://arxiv.org/pdf/2002.02090.pdf)
+* [FedDANE: A Federated Newton-Type Method](https://arxiv.org/pdf/2001.01920.pdf)
+* [Distributed Fixed Point Methods with Compressed Iterates](https://arxiv.org/pdf/1912.09925.pdf)
+* [Primal-dual methods for large-scale and distributed convex optimization and data analytics](https://arxiv.org/pdf/1912.08546.pdf)
+* [Parallel Restarted SPIDER - Communication Efficient Distributed Nonconvex Optimization with Optimal Computation Complexity](https://arxiv.org/pdf/1912.06036.pdf)
+* [Representation of Federated Learning via Worst-Case Robust Optimization Theory](https://arxiv.org/pdf/1912.05571.pdf)
+* [On the Convergence of Local Descent Methods in Federated Learning](https://arxiv.org/pdf/1910.14425.pdf)
+* [SCAFFOLD: Stochastic Controlled Averaging for Federated Learning](https://arxiv.org/pdf/1910.06378.pdf)
+* [Central Server Free Federated Learning over Single-sided Trust Social Networks](https://arxiv.org/pdf/1910.04956.pdf)
+* [Accelerating Federated Learning via Momentum Gradient Descent](https://arxiv.org/pdf/1910.03197.pdf)
+* [Communication-Efficient Distributed Optimization in Networks with Gradient Tracking and Variance Reduction](https://arxiv.org/pdf/1909.05844.pdf)
+* [Gradient Descent with Compressed Iterates](https://arxiv.org/pdf/1909.04716.pdf)
+* [Robust Federated Learning in a Heterogeneous Environment](https://arxiv.org/pdf/1906.06629.pdf)
+* [Scalable and Differentially Private Distributed Aggregation in the Shuffled Model](https://arxiv.org/pdf/1906.08320.pdf)
+* [Differentially Private Learning with Adaptive Clipping](https://arxiv.org/pdf/1905.03871.pdf)
+* [Semi-Cyclic Stochastic Gradient Descent](https://arxiv.org/pdf/1904.10120.pdf)
+* [Asynchronous Federated Optimization](https://arxiv.org/pdf/1903.03934.pdf)
+* [Federated Optimization in Heterogeneous Networks](https://arxiv.org/pdf/1812.06127.pdf)
+* [Partitioned Variational Inference: A unified framework encompassing federated and continual learning](https://arxiv.org/pdf/1811.11206.pdf)
+* [Learning Rate Adaptation for Federated and Differentially Private Learning](https://arxiv.org/pdf/1809.03832.pdf)
+* [Communication-Efficient Robust Federated Learning Over Heterogeneous Datasets](https://arxiv.org/pdf/2006.09992.pdf)
+* [An Efficient Framework for Clustered Federated Learning](https://arxiv.org/pdf/2006.04088.pdf)
+* [Don’t Use Large Mini-Batches, Use Local SGD](https://arxiv.org/pdf/1808.07217.pdf)
+* [Overlap Local-SGD: An Algorithmic Approach to Hide Communication Delays in Distributed SGD](https://arxiv.org/pdf/2002.09539.pdf)
+* [Local SGD With a Communication Overhead Depending Only on the Number of Workers](https://arxiv.org/pdf/2006.02582.pdf)
+* [Federated Accelerated Stochastic Gradient Descent ](https://arxiv.org/pdf/2006.08950.pdf)
+* [Tighter Theory for Local SGD on Identical and Heterogeneous Data](https://arxiv.org/pdf/1909.04746.pdf)
+* [STL-SGD: Speeding Up Local SGD with Stagewise Communication Period](https://arxiv.org/pdf/2006.06377.pdf)
+* [Cooperative SGD: A unified Framework for the Design and Analysis of Communication-Efficient SGD Algorithms](https://arxiv.org/pdf/1808.07576.pdf)
+* [Don't Use Large Mini-Batches, Use Local SGD](https://arxiv.org/pdf/1808.07217.pdf)
+* [Understanding Unintended Memorization in Federated Learning](http://arxiv.org/pdf/2006.07490.pdf)
 
 ### 7.1 Compression
-* [Robust and Communication-Efficient Federated Learning from Non-IID Data](https://arxiv.org/pdf/1903.02891), 2019
 * [Expanding the Reach of Federated Learning by Reducing Client Resource Requirements](https://arxiv.org/abs/1812.07210) Sebastian Caldas, Jakub Konecny, H Brendan McMahan, and Ameet Talwalkar, 2018
 * [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) [NIPS2016 Workshop] [Google]
 * [Natural Compression for Distributed Deep Learning](https://arxiv.org/abs/1905.10988) Samuel Horvath, Chen-Yu Ho, Ludovit Horvath, Atal Narayan Sahu, Marco Canini, and Peter Richtarik, 2019.
@@ -151,6 +270,13 @@
 ### 7.3 Decentralization
 * [Communication Compression for Decentralized Training](https://arxiv.org/abs/1803.06443) [NIPS 2018], H. Tang, S. Gan, C. Zhang, T. Zhang, and J. Liu.
 * [𝙳𝚎𝚎𝚙𝚂𝚚𝚞𝚎𝚎𝚣𝚎: Decentralization Meets Error-Compensated Compression](https://arxiv.org/abs/1907.07346) Hanlin Tang, Xiangru Lian, Shuang Qiu, Lei Yuan, Ce Zhang, Tong Zhang, and Ji Liu, 2019
+* [Central Server Free Federated Learning over Single-sided Trust Social Networks](https://arxiv.org/pdf/1910.04956.pdf)
+* [Can Decentralized Algorithms Outperform Centralized Algorithms? A Case Study for Decentralized Parallel Stochastic Gradient Descent](https://arxiv.org/pdf/1705.09056.pdf)
+* [Multi-consensus Decentralized Accelerated Gradient Descent](https://arxiv.org/pdf/2005.00797.pdf)
+* [Decentralized Bayesian Learning over Graphs. 2019-05](https://arxiv.org/pdf/1905.10466.pdf)
+* [BrainTorrent: A Peer-to-Peer Environment for Decentralized Federated Learning](https://arxiv.org/pdf/1905.06731.pdf)
+* [Biscotti: A Ledger for Private and Secure Peer-to-Peer Machine Learning](https://arxiv.org/pdf/1811.09904.pdf)
+* [Matcha: Speeding Up Decentralized SGD via Matching Decomposition Sampling](https://arxiv.org/pdf/1905.09435.pdf)
 
 
 ## Part 8: Resource Allocation
@@ -160,7 +286,6 @@
 * [Client Selection for Federated Learning with Heterogeneous Resources in Mobile Edge](https://arxiv.org/abs/1804.08333) (FedCS)
 * [Hybrid-FL for Wireless Networks: Cooperative Learning Mechanism Using Non-IID Data](https://arxiv.org/abs/1905.07210)
 * [Ask to upload some data from client to server Efficient Training Management for Mobile Crowd-Machine Learning: A Deep Reinforcement Learning Approach](https://arxiv.org/abs/1812.03633)
-* [Reward function: accumulated data, energy consumption, training accuracy Fair Resource Allocation in Federated Learning](https://arxiv.org/abs/1905.10497)
 * [Low-latency Broadband Analog Aggregation For Federated Edge Learning](https://arxiv.org/abs/1812.11494)
 * [Federated Learning over Wireless Fading Channels](https://arxiv.org/pdf/1907.09769.pdf)
 * [Federated Learning via Over-the-Air Computation](https://arxiv.org/abs/1812.11750)
@@ -177,20 +302,153 @@
 * [Motivating Workers in Federated Learning: A Stackelberg Game Perspective](https://arxiv.org/abs/1908.03092)
 * [Incentive Design for Efficient Federated Learning in Mobile Networks: A Contract Theory Approach [2019]](https://arxiv.org/abs/1905.07479)
 * [Fair Resource Allocation in Federated Learning](https://arxiv.org/pdf/1905.10497v1.pdf)
-
+* [FMore: An Incentive Scheme of Multi-dimensional Auction for Federated Learning in MEC. ICDCS 2020](https://arxiv.org/pdf/2002.09699.pdf)
+* [Toward an Automated Auction Framework for Wireless Federated Learning Services Market](https://arxiv.org/pdf/1912.06370.pdf)
+* [Federated Learning for Edge Networks: Resource Optimization and Incentive Mechanism](https://arxiv.org/pdf/1911.05642.pdf)
+* [Motivating Workers in Federated Learning: A Stackelberg Game Perspective](https://arxiv.org/pdf/1908.03092.pdf)
+* [Incentive Design for Efficient Federated Learning in Mobile Networks: A Contract Theory Approach](https://arxiv.org/pdf/1905.07479.pdf)
+* [A Learning-based Incentive Mechanism forFederated Learning](https://www.u-aizu.ac.jp/~pengli/files/fl_incentive_iot.pdf)
+* [A Crowdsourcing Framework for On-Device Federated Learning](https://arxiv.org/pdf/1911.01046.pdf)
+  
 ## Part 9: Vertical Federated Learning
 
 * [A Quasi-Newton Method Based Vertical Federated Learning Framework for Logistic Regression](https://arxiv.org/abs/1912.00513) [NIPS 2019 Workshop]
+* [SecureBoost: A Lossless Federated Learning Framework](https://arxiv.org/pdf/1901.08755.pdf)
+* [Parallel Distributed Logistic Regression for Vertical Federated Learning without Third-Party Coordinator](https://arxiv.org/pdf/1911.09824.pdf)
+* [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/pdf/1711.10677.pdf)
+* [Entity Resolution and Federated Learning get a Federated Resolution.](https://arxiv.org/pdf/1803.04035.pdf)
+* [Multi-Participant Multi-Class Vertical Federated Learning](https://arxiv.org/pdf/2001.11154.pdf)
+* [A Communication-Efficient Collaborative Learning Framework for Distributed Features](https://arxiv.org/pdf/1912.11187.pdf)
+* [Asymmetrical Vertical Federated Learning](https://arxiv.org/pdf/2004.07427.pdf)
+Researcher: Tencent Cloud, Libin Wang
+[VAFL: a Method of Vertical Asynchronous Federated Learning, ICML workshop on FL, 2020](https://arxiv.org/abs/2007.06081)
+
 
 ## Part 10: Adversarial Attacks
 * [Can You Really Backdoor Federated Learning?](https://arxiv.org/abs/1911.07963)
 * [Model Poisoning Attacks in Federated Learning](https://dais-ita.org/sites/default/files/main_secml_model_poison.pdf) [NIPS workshop 2018]
+* [An Overview of Federated Deep Learning Privacy Attacks and Defensive Strategies. 2020-04-01](https://arxiv.org/pdf/2004.04676.pdf)
+* [How To Backdoor Federated Learning. 2018-07-02. AISTATS 2020](https://arxiv.org/pdf/1807.00459.pdf)
+* [Can You Really Backdoor Federated Learning?. NeruIPS 2019. 2019-11-18](https://arxiv.org/pdf/1911.07963.pdf)
+* [Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning. ACM CCS 2017. 2017-02-14](https://arxiv.org/pdf/1702.07464.pdf)
+* [Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates](https://arxiv.org/pdf/1803.01498.pdf)
+* [Deep Leakage from Gradients. NIPS 2019](https://papers.nips.cc/paper/9617-deep-leakage-from-gradients.pdf)
+* [Comprehensive Privacy Analysis of Deep Learning: Passive and Active White-box Inference Attacks against Centralized and Federated Learning. 2018-12-03](https://arxiv.org/pdf/1812.00910.pdf)
+* [Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning. INFOCOM 2019](https://arxiv.org/pdf/1812.00535.pdf)
+* [Analyzing Federated Learning through an Adversarial Lens. ICML 2019.](https://arxiv.org/pdf/1811.12470.pdf). 
+* [Mitigating Sybils in Federated Learning Poisoning. 2018-08-14. RAID 2020](https://arxiv.org/pdf/1808.04866.pdf)
+* [RSA: Byzantine-Robust Stochastic Aggregation Methods for Distributed Learning from Heterogeneous Datasets, AAAI 2019](https://arxiv.org/abs/1811.03761)
+* [(*) A Framework for Evaluating Gradient Leakage Attacks in Federated Learning. 2020-04-22](https://arxiv.org/pdf/2004.10397.pdf)
+* [(*) Local Model Poisoning Attacks to Byzantine-Robust Federated Learning. 2019-11-26](https://arxiv.org/pdf/1911.11815.pdf)
+* [NeurIPS 2020 Submission: Backdoor Attacks on Federated Meta-Learning](https://arxiv.org/pdf/2006.07026.pdf)
+* [Towards Realistic Byzantine-Robust Federated Learning. 2020-04-10](https://arxiv.org/pdf/2004.04986.pdf)
+* [Data Poisoning Attacks on Federated Machine Learning. 2020-04-19](https://arxiv.org/pdf/2004.10020.pdf)
+* [Exploiting Defenses against GAN-Based Feature Inference Attacks in Federated Learning. 2020-04-27](https://arxiv.org/pdf/2004.12571.pdf)
+* [Byzantine-Resilient High-Dimensional SGD with Local Iterations on Heterogeneous Data. 2020-06-22](https://arxiv.org/pdf/2006.13041.pdf)Researcher: Suhas Diggavi, UCLA (https://scholar.google.com/citations?hl=en&user=hjTzNuQAAAAJ&view_op=list_works&sortby=pubdate)
+* [(*) NeurIPS 2020 submission: FedMGDA+: Federated Learning meets Multi-objective Optimization. 2020-06-20](https://arxiv.org/pdf/2006.11489.pdf)
+* [(*) NeurIPS 2020 submission: Free-rider Attacks on Model Aggregation in Federated Learning. 2020-06-26](https://arxiv.org/pdf/2006.11901.pdf)
+* [FDA3 : Federated Defense Against Adversarial Attacks for Cloud-Based IIoT Applications. 2020-06-28](https://arxiv.org/pdf/2006.15632.pdf)
+* [Privacy-preserving Weighted Federated Learning within Oracle-Aided MPC Framework. 2020-05-17](https://arxiv.org/pdf/2003.07630.pdf)
+* [BASGD: Buffered Asynchronous SGD for Byzantine Learning. 2020-03-02](https://arxiv.org/pdf/2003.00937.pdf)
+* [Stochastic-Sign SGD for Federated Learning with Theoretical Guarantees. 2020-02-25](https://arxiv.org/pdf/2002.10940.pdf)
+* [Learning to Detect Malicious Clients for Robust Federated Learning. 2020-02-01](https://arxiv.org/pdf/2002.00211.pdf)
+* [Robust Aggregation for Federated Learning. 2019-12-31](https://arxiv.org/pdf/1912.13445.pdf)
+* [Towards Deep Federated Defenses Against Malware in Cloud Ecosystems. 2019-12-27](https://arxiv.org/pdf/1912.12370.pdf)
+* [Attack-Resistant Federated Learning with Residual-based Reweighting. 2019-12-23](https://arxiv.org/pdf/1912.11464.pdf)
+* [Free-riders in Federated Learning: Attacks and Defenses. 2019-11-28](https://arxiv.org/pdf/1911.12560.pdf)
+* [Robust Federated Learning with Noisy Communication. 2019-11-01](https://arxiv.org/pdf/1911.00251.pdf)
+* [Abnormal Client Behavior Detection in Federated Learning. 2019-10-22](https://arxiv.org/pdf/1910.09933.pdf)
+* [Eavesdrop the Composition Proportion of Training Labels in Federated Learning. 2019-10-14](https://arxiv.org/pdf/1910.06044.pdf)
+* [Byzantine-Robust Federated Machine Learning through Adaptive Model Averaging. 2019-09-11](https://arxiv.org/pdf/1909.05125.pdf)
+* [An End-to-End Encrypted Neural Network for Gradient Updates Transmission in Federated Learning. 2019-08-22](https://arxiv.org/pdf/1908.08340.pdf)
+* [Secure Distributed On-Device Learning Networks With Byzantine Adversaries. 2019-06-03](https://arxiv.org/pdf/1906.00887.pdf)
+* [Robust Federated Training via Collaborative Machine Teaching using Trusted Instances. 2019-05-03](https://arxiv.org/pdf/1905.02941.pdf)
+* [Dancing in the Dark: Private Multi-Party Machine Learning in an Untrusted Setting. 2018-11-23](https://arxiv.org/pdf/1811.09712.pdf)
+* [Inverting Gradients - How easy is it to break privacy in federated learning? 2020-03-31](https://arxiv.org/pdf/2003.14053.pdf)
+* [Quantification of the Leakage in Federated Learning. 2019-10-12](https://arxiv.org/pdf/1910.05467.pdf)
+
+## 10.1 Wireless Communication and Cloud Computing
+Researcher: 
+H. Vincent Poor
+https://ee.princeton.edu/people/h-vincent-poor
+
+Hao Ye
+https://scholar.google.ca/citations?user=ok7OWEAAAAAJ&hl=en
+
+Ye Li
+http://liye.ece.gatech.edu/
+
+* [Mix2FLD: Downlink Federated Learning After Uplink Federated Distillation With Two-Way Mixup](https://arxiv.org/pdf/2006.09801.pdf)Researcher: Mehdi Bennis, Seong-Lyun Kim
+* [Wireless Communications for Collaborative Federated Learning in the Internet of Things](https://arxiv.org/pdf/2006.02499.pdf)
+* [Democratizing the Edge: A Pervasive Edge Computing Framework](https://arxiv.org/pdf/2007.00641.pdf)
+* [UVeQFed: Universal Vector Quantization for Federated Learning](https://arxiv.org/pdf/2006.03262.pdf)
+* [Federated Deep Learning Framework For Hybrid Beamforming in mm-Wave Massive MIMO](https://arxiv.org/pdf/2005.09969.pdf)
+* [Efficient Federated Learning over Multiple Access Channel with Differential Privacy Constraints](https://arxiv.org/pdf/2005.07776.pdf)
+* [A Secure Federated Learning Framework for 5G Networks](https://arxiv.org/pdf/2005.05752.pdf)
+* [Federated Learning and Wireless Communications](https://arxiv.org/pdf/2005.05265.pdf)
+* [Lightwave Power Transfer for Federated Learning-based Wireless Networks](https://arxiv.org/pdf/2005.03977.pdf)
+* [Towards Ubiquitous AI in 6G with Federated Learning](https://arxiv.org/pdf/2004.13563.pdf)
+* [Optimizing Over-the-Air Computation in IRS-Aided C-RAN Systems](https://arxiv.org/pdf/2004.09168.pdf)
+* [Network-Aware Optimization of Distributed Learning for Fog Computing](https://arxiv.org/pdf/2004.08488.pdf)
+* [On the Design of Communication Efficient Federated Learning over Wireless Networks](https://arxiv.org/pdf/2004.07351.pdf)
+* [Federated Machine Learning for Intelligent IoT via Reconfigurable Intelligent Surface](https://arxiv.org/pdf/2004.05843.pdf)
+* [Client Selection and Bandwidth Allocation in Wireless Federated Learning Networks: A Long-Term Perspective](https://arxiv.org/pdf/2004.04314.pdf)
+* [Resource Management for Blockchain-enabled Federated Learning: A Deep Reinforcement Learning Approach](https://arxiv.org/pdf/2004.04104.pdf)
+* [A Blockchain-based Decentralized Federated Learning Framework with Committee Consensus](https://arxiv.org/pdf/2004.00773.pdf)
+* [Scheduling for Cellular Federated Edge Learning with Importance and Channel. 2020-04](https://arxiv.org/pdf/2004.00490.pdf)
+* [Differentially Private Federated Learning for Resource-Constrained Internet of Things. 2020-03](https://arxiv.org/pdf/2003.12705.pdf)
+* [Federated Learning for Task and Resource Allocation in Wireless High Altitude Balloon Networks. 2020-03](https://arxiv.org/pdf/2003.09375.pdf)
+* [Gradient Estimation for Federated Learning over Massive MIMO Communication Systems](https://arxiv.org/pdf/2003.08059.pdf)
+* [Adaptive Federated Learning With Gradient Compression in Uplink NOMA](https://arxiv.org/pdf/2003.01344.pdf)
+* [Performance Analysis and Optimization in Privacy-Preserving Federated Learning](https://arxiv.org/pdf/2003.00229.pdf)
+* [Energy-Efficient Federated Edge Learning with Joint Communication and Computation Design](https://arxiv.org/pdf/2003.00199.pdf)
+* [Federated Over-the-Air Subspace Learning and Tracking from Incomplete Data](https://arxiv.org/pdf/2002.12873.pdf)
+* [Decentralized Federated Learning via SGD over Wireless D2D Networks](https://arxiv.org/pdf/2002.12507.pdf)
+* [Federated Learning in the Sky: Joint Power Allocation and Scheduling with UAV Swarms](https://arxiv.org/pdf/2002.08196.pdf)
+* [Wireless Federated Learning with Local Differential Privacy](https://arxiv.org/pdf/2002.05151.pdf)
+* [Federated Learning under Channel Uncertainty: Joint Client Scheduling and Resource Allocation. 2020-02](https://arxiv.org/pdf/2002.01337.pdf)
+* [Learning from Peers at the Wireless Edge](https://arxiv.org/pdf/2001.11567.pdf)
+* [Convergence of Update Aware Device Scheduling for Federated Learning at the Wireless Edge](https://arxiv.org/pdf/2001.10402.pdf)
+* [Communication Efficient Federated Learning over Multiple Access Channels](https://arxiv.org/pdf/2001.08737.pdf)
+* [Convergence Time Optimization for Federated Learning over Wireless Networks](https://arxiv.org/pdf/2001.07845.pdf)
+* [One-Bit Over-the-Air Aggregation for Communication-Efficient Federated Edge Learning: Design and Convergence Analysis](https://arxiv.org/pdf/2001.05713.pdf)
+* [Federated Learning with Cooperating Devices: A Consensus Approach for Massive IoT Networks. IEEE Internet of Things Journal. 2020](https://arxiv.org/pdf/1912.13163.pdf)
+* [Asynchronous Federated Learning with Differential Privacy for Edge Intelligence](https://arxiv.org/pdf/1912.07902.pdf)
+* [Federated learning with multichannel ALOHA](https://arxiv.org/pdf/1912.06273.pdf)
+* [Federated Learning with Autotuned Communication-Efficient Secure Aggregation](https://arxiv.org/pdf/1912.00131.pdf)
+* [Bandwidth Slicing to Boost Federated Learning in Edge Computing](https://arxiv.org/pdf/1911.07615.pdf)
+* [Energy Efficient Federated Learning Over Wireless Communication Networks](https://arxiv.org/pdf/1911.02417.pdf)
+* [Device Scheduling with Fast Convergence for Wireless Federated Learning](https://arxiv.org/pdf/1911.00856.pdf)
+* [Energy-Aware Analog Aggregation for Federated Learning with Redundant Data](https://arxiv.org/pdf/1911.00188.pdf)
+* [Age-Based Scheduling Policy for Federated Learning in Mobile Edge Networks](https://arxiv.org/pdf/1910.14648.pdf)
+* [Federated Learning over Wireless Networks: Convergence Analysis and Resource Allocation](https://arxiv.org/pdf/1910.13067.pdf)
+* [Federated Learning over Wireless Networks: Optimization Model Design and Analysis](http://networking.khu.ac.kr/layouts/net/publications/data/2019\)Federated%20Learning%20over%20Wireless%20Network.pdf)
+* [Resource Allocation in Mobility-Aware Federated Learning Networks: A Deep Reinforcement Learning Approach](https://arxiv.org/pdf/1910.09172.pdf)
+* [Reliable Federated Learning for Mobile Networks](https://arxiv.org/pdf/1910.06837.pdf)
+* [FedPAQ: A Communication-Efficient Federated Learning Method with Periodic Averaging and Quantization](https://arxiv.org/pdf/1909.13014.pdf)
+* [Active Federated Learning](https://arxiv.org/pdf/1909.12641.pdf)
+* [Cell-Free Massive MIMO for Wireless Federated Learning](https://arxiv.org/pdf/1909.12567.pdf)
+* [A Joint Learning and Communications Framework for Federated Learning over Wireless Networks](https://arxiv.org/pdf/1909.07972.pdf)
+* [On Safeguarding Privacy and Security in the Framework of Federated Learning](https://arxiv.org/pdf/1909.06512.pdf)
+* [Scheduling Policies for Federated Learning in Wireless Networks](https://arxiv.org/pdf/1908.06287.pdf)
+* [Federated Learning with Additional Mechanisms on Clients to Reduce Communication Costs](https://arxiv.org/pdf/1908.05891.pdf)
+* [Federated Learning over Wireless Fading Channels](https://arxiv.org/pdf/1907.09769.pdf)
+* [Energy-Efficient Radio Resource Allocation for Federated Edge Learning](https://arxiv.org/pdf/1907.06040.pdf)
+* [Mobile Edge Computing, Blockchain and Reputation-based Crowdsourcing IoT Federated Learning: A Secure, Decentralized and Privacy-preserving System](https://arxiv.org/pdf/1906.10893.pdf)
+* [Active Learning Solution on Distributed Edge Computing](https://arxiv.org/pdf/1906.10718.pdf)
+* [Fast Uplink Grant for NOMA: a Federated Learning based Approach](https://arxiv.org/pdf/1905.04519.pdf)
+* [Machine Learning at the Wireless Edge: Distributed Stochastic Gradient Descent Over-the-Air](https://arxiv.org/pdf/1901.00844.pdf)
+* [Federated Learning via Over-the-Air Computation](https://arxiv.org/pdf/1812.11750.pdf)
+* [Broadband Analog Aggregation for Low-Latency Federated Edge Learning](https://arxiv.org/pdf/1812.11494.pdf)
+* [Federated Echo State Learning for Minimizing Breaks in Presence in Wireless Virtual Reality Networks](https://arxiv.org/pdf/1812.01202.pdf)
+* [Joint Service Pricing and Cooperative Relay Communication for Federated Learning](https://arxiv.org/pdf/1811.12082.pdf)
+* [In-Edge AI: Intelligentizing Mobile Edge Computing, Caching and Communication by Federated Learning](https://arxiv.org/pdf/1809.07857.pdf)
+* [Asynchronous Task Allocation for Federated and Parallelized Mobile Edge Learning](https://arxiv.org/pdf/1905.01656.pdf)
 
 ## Part 11: Data Privacy and Confidentiality
 
 * [Gradient-Leaks: Understanding and Controlling Deanonymization in Federated Learning](https://arxiv.org/abs/1805.05838) [NIPS 2019 Workshop]
 * [Quantification of the Leakage in Federated Learning](https://arxiv.org/pdf/1910.05467.pdf)
-
 
 ### 11.1 Courses
 
@@ -206,7 +464,39 @@
 * [Private Federated Learning with Domain Adaptation](https://arxiv.org/abs/1912.06733) [NIPS 2019 Workshop]
 * [cpSGD: Communication-efficient and differentially-private distributed SGD](https://arxiv.org/abs/1805.10559)
 * [Federated Learning with Bayesian Differential Privacy](https://arxiv.org/pdf/1911.10071.pdf) [NIPS 2019 Workshop]
-
+* [Practical Secure Aggregation for Federated Learning on User-Held Data. NIPS 2016 workshop](https://arxiv.org/pdf/1611.04482.pdf)
+* [Differentially Private Federated Learning: A Client Level Perspective. NIPS 2017 Workshop](https://arxiv.org/pdf/1712.07557.pdf)
+* [Exploiting Unintended Feature Leakage in Collaborative Learning. S&P 2019. 2018-05-10](https://arxiv.org/pdf/1805.04049.pdf)
+* [(x) Gradient-Leaks: Understanding and Controlling Deanonymization in Federated Learning. 2018-05](https://arxiv.org/pdf/1805.05838.pdf)
+* [A Hybrid Approach to Privacy-Preserving Federated Learning. AISec 2019. 2018-12-07](https://arxiv.org/pdf/1812.03224.pdf)
+* [A generic framework for privacy preserving deep learning. PPML 2018. 2018-11-09](https://arxiv.org/pdf/1811.04017.pdf)
+* [Federated Generative Privacy. IJCAI 2019 FL workshop. 2019-10-08](https://arxiv.org/pdf/1910.08385.pdf)
+* [Enhancing the Privacy of Federated Learning with Sketching. 2019-11-05](https://arxiv.org/pdf/1911.01812.pdf)
+* [Federated Learning with Bayesian Differential Privacy. 2019-11-22](https://arxiv.org/pdf/1911.10071.pdf)HybridAlpha: An Efficient Approach for Privacy-Preserving Federated Learning. AISec 2019. 2019-12-12
+* [https://aisec.cc/](https://arxiv.org/pdf/1912.05897.pdf)
+* [Private Federated Learning with Domain Adaptation. NeurIPS 2019 FL workshop. 2019-12-13](https://arxiv.org/pdf/1912.06733.pdf)
+* [iDLG: Improved Deep Leakage from Gradients. 2020-01-08](https://arxiv.org/pdf/2001.02610.pdf)
+* [Anonymizing Data for Privacy-Preserving Federated Learning. 2020-02-21](https://arxiv.org/pdf/2002.09096.pdf)
+* [Practical and Bilateral Privacy-preserving Federated Learning. 2020-02-23](https://arxiv.org/pdf/2002.09843.pdf)
+* [Decentralized Policy-Based Private Analytics. 2020-03-14](https://arxiv.org/pdf/2003.06612.pdf)
+* [FedSel: Federated SGD under Local Differential Privacy with Top-k Dimension Selection. DASFAA 2020. 2020-03-24](https://arxiv.org/pdf/2003.10637.pdf)
+* [Learn to Forget: User-Level Memorization Elimination in Federated Learning. 2020-03-24](https://arxiv.org/pdf/2003.10933.pdf)
+* [LDP-Fed: Federated Learning with Local Differential Privacy. EdgeSys 2020. 2020-04-01](https://arxiv.org/pdf/2006.03637.pdf)
+* [PrivFL: Practical Privacy-preserving Federated Regressions on High-dimensional Data over Mobile Networks. 2020-04-05](https://arxiv.org/pdf/2004.02264.pdf)
+* [Local Differential Privacy based Federated Learning for Internet of Things. 2020-04-09](https://arxiv.org/pdf/2004.08856.pdf)
+* [Differentially Private AirComp Federated Learning with Power Adaptation Harnessing Receiver Noise. 2020-04.](https://arxiv.org/pdf/2004.06337.pdf)
+* [Decentralized Differentially Private Segmentation with PATE. MICCAI 2020 Under Review. 2020-04](https://arxiv.org/pdf/2004.06567.pdf) Highlights: apply the ICLR 2017 paper "Semisupervised knowledge transfer for deep learning from private training data"
+* [Privacy Preserving Distributed Machine Learning with Federated Learning. 2020-04-25](https://arxiv.org/pdf/2004.12108.pdf)
+* [Exploring Private Federated Learning with Laplacian Smoothing. 2020-05-01](https://arxiv.org/pdf/2005.00218.pdf)
+* [Information-Theoretic Bounds on the Generalization Error and Privacy Leakage in Federated Learning. 2020-05-05](https://arxiv.org/pdf/2005.02503.pdf)
+* [Efficient Privacy Preserving Edge Computing Framework for Image Classification. 2020-05-10](https://arxiv.org/pdf/2005.04563.pdf)
+* [A Distributed Trust Framework for Privacy-Preserving Machine Learning. 2020-06-03](https://arxiv.org/pdf/2006.02456.pdf)
+* [Secure Byzantine-Robust Machine Learning. 2020-06-08](https://arxiv.org/pdf/2006.04747.pdf)
+* [ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing. 2020-06-08](https://arxiv.org/pdf/2006.04593.pdf)
+* [Privacy For Free: Wireless Federated Learning Via Uncoded Transmission With Adaptive Power Control. 2020-06-09](https://arxiv.org/pdf/2006.05459.pdf)
+* [(*) Distributed Differentially Private Averaging with Improved Utility and Robustness to Malicious Parties. 2020-06-12](https://arxiv.org/pdf/2006.07218.pdf)
+* [GS-WGAN: A Gradient-Sanitized Approach for Learning Differentially Private Generators. 2020-06-15](https://arxiv.org/pdf/2006.08848.pdf)
+* [Federated Learning with Differential Privacy:Algorithms and Performance Analysis](https://arxiv.org/pdf/1911.00222.pdf)
 
 
 ### 11.3 Secure Multi-party Computation
@@ -239,116 +529,4 @@
 ### 11.4 Privacy Preserving Machine Learning
 
 * [Privacy-Preserving Deep Learning](https://www.comp.nus.edu.sg/~reza/files/Shokri-CCS2015.pdf)
-* [Privacy Partition: A Privacy-Preserving Framework for Deep Neural Networks in Edge Networks](http://mews.sv.cmu.edu/papers/archedge-18.pdf)
-* [Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://eprint.iacr.org/2017/281.pdf) (Google)
-  * Secure Aggregation: The problem of computing a multiparty sum where no party reveals its update in the clear—even to the aggregator
-  * Goal: securely computing sums of vectors, which has a constant number of rounds, low communication overhead, robustness to failures, and which requires only one server with limited trust
-  * Need to have basic knowledge of cryptographic algorithms such as secret sharing, key agreement, etc.
-* [Practical Secure Aggregation for Federated Learning on User-Held Data](https://arxiv.org/abs/1611.04482) (Google)
-  * Highly related to *Practical Secure Aggregation for Privacy-Preserving Machine Learning*
-  * Proposed 4 protocol one by one with gradual improvement to meet the requirement of secure aggregation propocol.
-* [SecureML: A System for Scalable Privacy-Preserving Machine Learning](https://eprint.iacr.org/2017/396.pdf)
-* [Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://eprint.iacr.org/2017/281.pdf)
-* [DeepSecure: Scalable Provably-Secure Deep Learning](https://arxiv.org/abs/1705.08963)
-* [Chameleon: A Hybrid Secure Computation Framework for Machine Learning Applications](https://arxiv.org/pdf/1801.03239.pdf)
-
-
-## Part 12: Other Learning
-
-* [Federated Reinforcement Learning](https://arxiv.org/abs/1901.08277)
-* [Secure Federated Transfer Learning](https://arxiv.org/abs/1812.03337)
-* [Federated Learning with Matched Averaging](https://arxiv.org/abs/2002.06440)
-* [Bayesian Nonparametric Federated Learning of Neural Networks](https://arxiv.org/abs/1905.12022v1)
-* [Multi-Center Federated Learning](https://arxiv.org/pdf/2005.01026.pdf)
-* [FedGAN: Federated Generative Adversarial Networks for Distributed Data](https://arxiv.org/pdf/2006.07228.pdf)
-* [Generative models for effective ML on private decentralized datasets](https://arxiv.org/pdf/1911.06679.pdf)
-* [FEDFMC: Sequential efficient Federated Learning on Non-IID data](https://arxiv.org/pdf/2006.10937v1.pdf) 
-
-## Part 13: Frameworks
-
-* [PySyft](https://github.com/OpenMined/PySyft)
-  * [A Generic Framework for Privacy Preserving Peep Pearning](https://arxiv.org/abs/1811.04017)
-* [Tensorflow Federated](https://www.tensorflow.org/federated)
-* [FATE](https://github.com/FederatedAI/FATE)
-* [Baidu PaddleFL](https://github.com/PaddlePaddle/PaddleFL)
-* [Nvidia Clara SDK](https://developer.nvidia.com/clara)
-
-
-## Part 14: Workshops
-
-* [NIPS 2019 Workshop on Federated Learning for Data Privacy and Confidentiality 1](https://slideslive.com/38921898/workshop-on-federated-learning-for-data-privacy-and-confidentiality-1)
-* [NIPS 2019 Workshop on Federated Learning for Data Privacy and Confidentiality 2](https://slideslive.com/38921899/workshop-on-federated-learning-for-data-privacy-and-confidentiality-2)
-* [NIPS 2019 Workshop on Federated Learning for Data Privacy and Confidentiality 3](https://slideslive.com/38921900/workshop-on-federated-learning-for-data-privacy-and-confidentiality-3)
-
-
-## Part 15: Applications
-
-* [Federated Learning Approach for Mobile Packet Classification](https://arxiv.org/abs/1907.13113)
-* [Federated Learning for Ranking Browser History Suggestions](https://arxiv.org/abs/1911.11807) [NIPS 2019 Workshop]
-
-### 15.1 Healthcare
-* [HHHFL: Hierarchical Heterogeneous Horizontal Federated Learning for Electroencephalography](https://arxiv.org/abs/1909.05784) [NIPS 2019 Workshop]
-* [Learn Electronic Health Records by Fully Decentralized Federated Learning](https://arxiv.org/abs/1912.01792) [NIPS 2019 Workshop]
-* [Patient Clustering Improves Efficiency of Federated Machine Learning to predict mortality and hospital stay time using distributed Electronic Medical Records](https://arxiv.org/ftp/arxiv/papers/1903/1903.09296.pdf) [[News]](https://venturebeat.com/2019/03/25/federated-learning-technique-predicts-hospital-stay-and-patient-mortality/)
-  * MIT CSAI, Harvard Medical School, Tsinghua University
-* [Federated learning of predictive models from federated Electronic Health Records.](https://www.ncbi.nlm.nih.gov/pubmed/29500022)
-  * Boston University, Massachusetts General Hospital
-* [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](https://arxiv.org/pdf/1907.09173.pdf)
-  * Microsoft Research Asia
-* [Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation](https://arxiv.org/pdf/1810.04304.pdf)
-  * Intel
-* [NVIDIA Clara Federated Learning to Deliver AI to Hospitals While Protecting Patient Data](https://blogs.nvidia.com/blog/2019/12/01/clara-federated-learning/)
-  * Nvidia
-* [What is Federated Learning](https://blogs.nvidia.com/blog/2019/10/13/what-is-federated-learning/)
-  * Nvidia
-* [Split learning for health: Distributed deep learning without sharing raw patient data](https://arxiv.org/pdf/1812.00564)
-* [Two-stage Federated Phenotyping and Patient Representation Learning](https://www.aclweb.org/anthology/W19-5030.pdf) [ACL 2019]
-* [Federated Tensor Factorization for Computational Phenotyping](https://dl.acm.org/doi/10.1145/3097983.3098118) SIGKDD 2017
-* [FedHealth- A Federated Transfer Learning Framework for Wearable Healthcare](https://arxiv.org/abs/1907.09173) [ICJAI19 workshop]
-* [Multi-Institutional Deep Learning Modeling Without Sharing Patient Data- A Feasibility Study on Brain Tumor Segmentation](https://arxiv.org/abs/1810.04304) [MICCAI'18 Workshop]
-* [Federated Patient Hashing](https://aaai.org/ojs/index.php/AAAI/article/view/6121) [AAAI'20]
-  
-### 15.2 Natual Language Processing
-
-Google
-
-* [Federated Learning for Mobile Keyboard Prediction](https://arxiv.org/abs/1811.03604)
-* [Applied Federated Learning: Improving Google Keyboard Query Suggestions](https://arxiv.org/abs/1812.02903)
-* [Federated Learning Of Out-Of-Vocabulary Words](https://arxiv.org/abs/1903.10635)
-* [Federated Learning for Emoji Prediction in a Mobile Keyboard](https://arxiv.org/abs/1906.04329)
-
-Snips
-
-* [Federated Learning for Wake Keyword Spotting](https://arxiv.org/pdf/1810.05512.pdf)](https://medium.com/snips-ai/federated-learning-for-wake-word-detection-c8b8c5cdd2c5)](https://github.com/snipsco/keyword-spotting-research-datasets)
-
-### 15.3 Computer Vision
-
-* [Performance Optimization for Federated Person Re-identification via Benchmark Analysis](https://arxiv.org/abs/2008.11560) [ACMMM20]](https://github.com/cap-ntu/FedReID)
-* [Real-World Image Datasets for Federated Learning](https://arxiv.org/abs/1910.11089)
-  * Webank & Extreme Vision
-* [FedVision- An Online Visual Object Detection Platform Powered by Federated Learning](https://arxiv.org/abs/2001.06202) [IAAI20]
-* [Federated Learning for Vision-and-Language Grounding Problems](http://web.pkusz.edu.cn/adsp/files/2019/11/AAAI-FenglinL.1027.pdf) [AAAI20]
-
-### 15.4 Recommendation
-
- * [Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System](https://arxiv.org/abs/1901.09888)
-    * Huawei
- * [Federated Meta-Learning with Fast Convergence and Efficient Communication](https://arxiv.org/abs/1802.07876)
-    * Huawei
-
-### 15.5 Industrial
-
-* [Turbofan POC: Predictive Maintenance of Turbofan Engines using Federated Learning](https://github.com/matthiaslau/Turbofan-Federated-Learning-POC)
-* [Turbofan Tycoon Simulation by Cloudera/FastForwardLabs](https://turbofan.fastforwardlabs.com/)
-* [Firefox Search Bar](https://florian.github.io/federated-learning/)
-  * Detail explaination of their implementationn of Federated Learning in production.
-
-## Part 16: Company
-
-* [Privacy.ai](https://privacy.ai/)
-* [OpenMined](https://www.openmined.org/)
-* [Arkhn: Healthcare data](https://arkhn.org/en/)
-* [Owkin: Medical research](https://owkin.com/)
-* [Snips: Voice platform](https://snips.ai/)
-* [XAIN: Automated Invoicing](https://www.xain.io/)
-* [S20: Multiple third party collaboration](https://www.s20.ai/)
+* [Privacy Partition: A Privacy-Preserving Framework for Deep Neural Networks in Edge Networks](http://mews.sv.cmu.edu/papers
