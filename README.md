@@ -503,3 +503,55 @@ http://liye.ece.gatech.edu/
 
 * [Privacy-Preserving Deep Learning](https://www.comp.nus.edu.sg/~reza/files/Shokri-CCS2015.pdf)
 * [Privacy Partition: A Privacy-Preserving Framework for Deep Neural Networks in Edge Networks](http://mews.sv.cmu.edu/papers
+
+## 12 Applications
+
+* [Federated Learning Approach for Mobile Packet Classification](https://arxiv.org/abs/1907.13113)
+* [Federated Learning for Ranking Browser History Suggestions](https://arxiv.org/abs/1911.11807) (NIPS 2019 Workshop)
+
+### 12.1 Healthcare
+* [HHHFL: Hierarchical Heterogeneous Horizontal Federated Learning for Electroencephalography](https://arxiv.org/abs/1909.05784) (NIPS 2019 Workshop)
+* [Learn Electronic Health Records by Fully Decentralized Federated Learning](https://arxiv.org/abs/1912.01792) (NIPS 2019 Workshop)
+* [Patient Clustering Improves Efficiency of Federated Machine Learning to predict mortality and hospital stay time using distributed Electronic Medical Records](https://arxiv.org/ftp/arxiv/papers/1903/1903.09296.pdf) [[News]](https://venturebeat.com/2019/03/25/federated-learning-technique-predicts-hospital-stay-and-patient-mortality/)
+* [Federated learning of predictive models from federated Electronic Health Records.](https://www.ncbi.nlm.nih.gov/pubmed/29500022)
+* [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](https://arxiv.org/pdf/1907.09173.pdf)
+* [Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation](https://arxiv.org/pdf/1810.04304.pdf)
+* [NVIDIA Clara Federated Learning to Deliver AI to Hospitals While Protecting Patient Data](https://blogs.nvidia.com/blog/2019/12/01/clara-federated-learning/)
+* [What is Federated Learning](https://blogs.nvidia.com/blog/2019/10/13/what-is-federated-learning/)
+* [Split learning for health: Distributed deep learning without sharing raw patient data](https://arxiv.org/pdf/1812.00564)
+* [Two-stage Federated Phenotyping and Patient Representation Learning](https://www.aclweb.org/anthology/W19-5030.pdf) (ACL 2019)
+* [Federated Tensor Factorization for Computational Phenotyping](https://dl.acm.org/doi/10.1145/3097983.3098118) (SIGKDD 2017)
+* [FedHealth- A Federated Transfer Learning Framework for Wearable Healthcare](https://arxiv.org/abs/1907.09173) (ICJAI 2019 workshop)
+* [Multi-Institutional Deep Learning Modeling Without Sharing Patient Data- A Feasibility Study on Brain Tumor Segmentation](https://arxiv.org/abs/1810.04304) (MICCAI'18 Workshop)
+* [Federated Patient Hashing](https://aaai.org/ojs/index.php/AAAI/article/view/6121) (AAAI 2020)
+  
+### 12.2 Natual Language Processing
+
+Google
+
+* [Federated Learning for Mobile Keyboard Prediction](https://arxiv.org/abs/1811.03604)
+* [Applied Federated Learning: Improving Google Keyboard Query Suggestions](https://arxiv.org/abs/1812.02903)
+* [Federated Learning Of Out-Of-Vocabulary Words](https://arxiv.org/abs/1903.10635)
+* [Federated Learning for Emoji Prediction in a Mobile Keyboard](https://arxiv.org/abs/1906.04329)
+
+Snips
+
+* [Federated Learning for Wake Keyword Spotting](https://arxiv.org/pdf/1810.05512.pdf) [[Blog]](https://medium.com/snips-ai/federated-learning-for-wake-word-detection-c8b8c5cdd2c5) [[Github]](https://github.com/snipsco/keyword-spotting-research-datasets)
+
+### 12.3 Computer Vision
+
+* [Performance Optimization for Federated Person Re-identification via Benchmark Analysis](https://arxiv.org/abs/2008.11560) (ACMMM 2020) [[Github]](https://github.com/cap-ntu/FedReID)
+* [Real-World Image Datasets for Federated Learning](https://arxiv.org/abs/1910.11089)
+* [FedVision- An Online Visual Object Detection Platform Powered by Federated Learning](https://arxiv.org/abs/2001.06202) (IAAI20)
+* [Federated Learning for Vision-and-Language Grounding Problems](http://web.pkusz.edu.cn/adsp/files/2019/11/AAAI-FenglinL.1027.pdf) (AAAI20)
+
+### 12.4 Recommendation
+
+ * [Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System](https://arxiv.org/abs/1901.09888)
+ * [Federated Meta-Learning with Fast Convergence and Efficient Communication](https://arxiv.org/abs/1802.07876)
+
+### 12.5 Industrial
+
+* [Turbofan POC: Predictive Maintenance of Turbofan Engines using Federated Learning](https://github.com/matthiaslau/Turbofan-Federated-Learning-POC)
+* [Turbofan Tycoon Simulation by Cloudera/FastForwardLabs](https://turbofan.fastforwardlabs.com/)
+* [Firefox Search Bar](https://florian.github.io/federated-learning/)
