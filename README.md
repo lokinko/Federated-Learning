@@ -578,7 +578,7 @@ Qiang Yang, Tianjian Chen, Yang Liu, Yongxin Tong.
 Jiankai Sun, Weihao Gao, Hongyi Zhang, Junyuan Xie.[《Label Leakage and Protection in Two-party Split learning》](https://arxiv.org/pdf/2102.08504.pdf)
 
 
-#####华控清交 PrivPy 多方计算平台
+##### 华控清交 PrivPy 多方计算平台
 Yi Li, Wei Xu.[《PrivPy: General and Scalable Privacy-Preserving Data Mining》](https://dl.acm.org/doi/pdf/10.1145/3292500.3330920)
 
 
@@ -626,7 +626,7 @@ Tongxin Li, Yu Ding, Yulong Zhang, Tao Wei.[《gbdt-rs: Fast and Trustworthy Gra
 
 
 
-###13.2 国际篇
+### 13.2 国际篇
 
 Google 提出 Federated Learning.
 H. Brendan McMahan. Daniel Ramage. Jakub Konečný. Kallista A. Bonawitz. Hubert Eichner.
@@ -645,7 +645,7 @@ H. Brendan McMahan. Daniel Ramage. Jakub Konečný. Kallista A. Bonawitz. Hubert
 
 
 
-####Cornell University.
+#### Cornell University.
 
 Antonio Marcedone.
 
