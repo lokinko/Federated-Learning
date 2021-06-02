@@ -567,14 +567,14 @@ Snips
 * [Firefox Search Bar](https://florian.github.io/federated-learning/)
 
 ## Part 13: Organizations and Companies
-###13.1 国内篇
-微众银行开源 [FATE](https://github.com/FederatedAI/FATE) 框架.
+### 13.1 国内篇
+##### 微众银行开源 [FATE](https://github.com/FederatedAI/FATE) 框架.
 Qiang Yang, Tianjian Chen, Yang Liu, Yongxin Tong.
 - [《Federated machine learning: Concept and applications》](https://dl.acm.org/doi/abs/10.1145/3298981)
 - [《Secureboost: A lossless federated learning framework》](https://ieeexplore.ieee.org/abstract/document/9440789)
 
 
-字节跳动开源 [FedLearner](https://github.com/bytedance/fedlearner) 框架.
+##### 字节跳动开源 [FedLearner](https://github.com/bytedance/fedlearner) 框架.
 Jiankai Sun, Weihao Gao, Hongyi Zhang, Junyuan Xie.[《Label Leakage and Protection in Two-party Split learning》](https://arxiv.org/pdf/2102.08504.pdf)
 
 
@@ -583,32 +583,32 @@ Yi Li, Wei Xu.[《PrivPy: General and Scalable Privacy-Preserving Data Mining》
 
 
 
-同盾科技 同盾志邦知识联邦平台
+##### 同盾科技 同盾志邦知识联邦平台
 Hongyu Li, Dan Meng, Hong Wang, Xiaolin Li.
 - [《Knowledge Federation: A Unified and Hierarchical Privacy-Preserving AI Framework》](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9194566)
 - [《FedMONN: Meta Operation Neural Network for Secure Federated Aggregation》](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9408024)
 
 
 
-百度 [MesaTEE](https://anquan.baidu.com/product/mesatee) 安全计算平台
+##### 百度 [MesaTEE](https://anquan.baidu.com/product/mesatee) 安全计算平台
 Tongxin Li, Yu Ding, Yulong Zhang, Tao Wei.[《gbdt-rs: Fast and Trustworthy Gradient Boosting Decision Tree》](https://www.ieee-security.org/TC/SP2019/posters/hotcrp_sp19posters-final11.pdf)
 
 
-矩阵元 [Rosetta](https://github.com/LatticeX-Foundation/Rosetta) 隐私开源框架
+##### 矩阵元 [Rosetta](https://github.com/LatticeX-Foundation/Rosetta) 隐私开源框架
 
-百度 [PaddlePaddle](https://github.com/PaddlePaddle/PaddleFL) 开源联邦学习框架
+##### 百度 [PaddlePaddle](https://github.com/PaddlePaddle/PaddleFL) 开源联邦学习框架
 
-蚂蚁区块链科技 [蚂蚁链摩斯安全计算平台](https://antchain.antgroup.com/products/morse)
+##### 蚂蚁区块链科技 [蚂蚁链摩斯安全计算平台](https://antchain.antgroup.com/products/morse)
 
-阿里云 [DataTrust](https://dp.alibaba.com/index) 隐私增强计算平台
+##### 阿里云 [DataTrust](https://dp.alibaba.com/index) 隐私增强计算平台
 
-百度百度点石联邦学习平台
+##### 百度百度点石联邦学习平台
 
-富数科技 阿凡达安全计算平台
+##### 富数科技 阿凡达安全计算平台
 
 
 
-香港理工大学
+##### 香港理工大学
 
 [《FedVision: An Online Visual Object Detection Platform Powered by Federated Learning》](https://ojs.aaai.org//index.php/AAAI/article/view/7021)
 
@@ -618,7 +618,7 @@ Tongxin Li, Yu Ding, Yulong Zhang, Tao Wei.[《gbdt-rs: Fast and Trustworthy Gra
 
 
 
-北京航空航天大学
+##### 北京航空航天大学
 
 [《Federated machine learning: Concept and applications》](https://dl.acm.org/doi/abs/10.1145/3298981)
 
