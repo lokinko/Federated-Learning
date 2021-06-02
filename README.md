@@ -514,7 +514,7 @@
 * [Privacy-Preserving Deep Learning](https://www.comp.nus.edu.sg/~reza/files/Shokri-CCS2015.pdf)
 * [Privacy Partition: A Privacy-Preserving Framework for Deep Neural Networks in Edge Networks](http://mews.sv.cmu.edu/papers
 
-## 12 Applications
+## Part 12: Applications
 
 * [Federated Learning Approach for Mobile Packet Classification](https://arxiv.org/abs/1907.13113)
 * [Federated Learning for Ranking Browser History Suggestions](https://arxiv.org/abs/1911.11807) (NIPS 2019 Workshop)
@@ -565,3 +565,100 @@ Snips
 * [Turbofan POC: Predictive Maintenance of Turbofan Engines using Federated Learning](https://github.com/matthiaslau/Turbofan-Federated-Learning-POC)
 * [Turbofan Tycoon Simulation by Cloudera/FastForwardLabs](https://turbofan.fastforwardlabs.com/)
 * [Firefox Search Bar](https://florian.github.io/federated-learning/)
+
+## Part 13: Organizations and Companies
+###13.1 国内篇
+#####微众银行开源 [FATE](https://github.com/FederatedAI/FATE) 框架.
+Qiang Yang, Tianjian Chen, Yang Liu, Yongxin Tong.
+- [《Federated machine learning: Concept and applications》](https://dl.acm.org/doi/abs/10.1145/3298981)
+- [《Secureboost: A lossless federated learning framework》](https://ieeexplore.ieee.org/abstract/document/9440789)
+
+
+#####字节跳动开源 [FedLearner](https://github.com/bytedance/fedlearner) 框架.
+Jiankai Sun, Weihao Gao, Hongyi Zhang, Junyuan Xie.[《Label Leakage and Protection in Two-party Split learning》](https://arxiv.org/pdf/2102.08504.pdf)
+
+
+#####华控清交 PrivPy 多方计算平台
+Yi Li, Wei Xu.[《PrivPy: General and Scalable Privacy-Preserving Data Mining》](https://dl.acm.org/doi/pdf/10.1145/3292500.3330920)
+
+
+
+#####同盾科技 同盾志邦知识联邦平台
+Hongyu Li, Dan Meng, Hong Wang, Xiaolin Li.
+- [《Knowledge Federation: A Unified and Hierarchical Privacy-Preserving AI Framework》](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9194566)
+- [《FedMONN: Meta Operation Neural Network for Secure Federated Aggregation》](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9408024)
+
+
+
+#####百度 [MesaTEE](https://anquan.baidu.com/product/mesatee) 安全计算平台
+Tongxin Li, Yu Ding, Yulong Zhang, Tao Wei.[《gbdt-rs: Fast and Trustworthy Gradient Boosting Decision Tree》](https://www.ieee-security.org/TC/SP2019/posters/hotcrp_sp19posters-final11.pdf)
+
+
+#####矩阵元 [Rosetta](https://github.com/LatticeX-Foundation/Rosetta) 隐私开源框架
+
+#####百度 [PaddlePaddle](https://github.com/PaddlePaddle/PaddleFL) 开源联邦学习框架
+
+#####蚂蚁区块链科技 [蚂蚁链摩斯安全计算平台](https://antchain.antgroup.com/products/morse)
+
+#####阿里云 [DataTrust](https://dp.alibaba.com/index) 隐私增强计算平台
+
+#####百度百度点石联邦学习平台
+
+#####富数科技 阿凡达安全计算平台
+
+
+
+#####香港理工大学
+
+[《FedVision: An Online Visual Object Detection Platform Powered by Federated Learning》](https://ojs.aaai.org//index.php/AAAI/article/view/7021)
+
+[《BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning》](https://www.usenix.org/system/files/atc20-zhang-chengliang.pdf)
+
+[《Abnormal Client Behavior Detection in Federated Learning》](https://arxiv.org/pdf/1910.09933.pdf)
+
+
+
+#####北京航空航天大学
+
+[《Federated machine learning: Concept and applications》](https://dl.acm.org/doi/abs/10.1145/3298981)
+
+[《Failure Prediction in Production Line Based on Federated Learning: An Empirical Study》](https://arxiv.org/pdf/2101.11715.pdf)
+
+
+
+###13.2 国际篇
+
+####Google 提出 Federated Learning.
+H. Brendan McMahan. Daniel Ramage. Jakub Konečný. Kallista A. Bonawitz. Hubert Eichner.
+
+[《Communication-efficient learning of deep networks from decentralized data》](https://arxiv.org/abs/1602.05629)
+
+[《Federated Learning: Strategies for Improving Communication Efficiency》](https://arxiv.org/abs/1610.05492)
+
+[《Advances and Open Problems in Federated Learning》](https://arxiv.org/pdf/1912.04977.pdf)
+
+[《Towards Federated Learning at Scale: System Design》](https://arxiv.org/abs/1902.01046)
+
+[《Differentially Private Learning with Adaptive Clipping》](https://arxiv.org/pdf/1905.03871.pdf)
+
+......（更多联邦学习相关文章请自行搜索 Google Scholar）
+
+
+
+####Cornell University.
+
+Antonio Marcedone.
+
+[《Practical Secure Aggregation for Federated Learning on User-Held Data》](https://arxiv.org/pdf/1611.04482.pdf)
+
+[《Practical Secure Aggregation for Privacy-Preserving Machine Learning》](https://academic.microsoft.com/paper/2949130532/citedby/search?q=Practical%20Secure%20Aggregation%20for%20Privacy%20Preserving%20Machine%20Learning.&qe=RId%253D2949130532&f=&orderBy=0)
+
+Eugene Bagdasaryan, Andreas Veit, Yiqing Hua, Deborah Estrin, Vitaly Shmatikov.
+
+[《How To Backdoor Federated Learning》](https://arxiv.org/pdf/1807.00459.pdf)
+
+[《Differential privacy has disparate impact on model accuracy》](https://proceedings.neurips.cc/paper/2019/hash/fc0de4e0396fff257ea362983c2dda5a-Abstract.html)
+
+Ziteng Sun.
+
+[《Can you really backdoor federated learning?》](https://arxiv.org/abs/1911.07963)
