@@ -85,6 +85,16 @@
 * [FedCD: Improving Performance in non-IID Federated Learning.](https://arxiv.org/pdf/2006.09637.pdf)
 * [Life Long Learning: FedFMC: Sequential Efficient Federated Learning on Non-iid Data.](https://arxiv.org/pdf/2006.10937.pdf)
 * [Robust Federated Learning: The Case of Affine Distribution Shifts.](https://arxiv.org/pdf/2006.08907.pdf)
+* [Exploiting Shared Representations for Personalized Federated Learning](https://arxiv.org/abs/2102.07078) (ICML 2021)
+* [Personalized Federated Learning using Hypernetworks](https://arxiv.org/abs/2103.04628) (ICML 2021)
+* [Ditto: Fair and Robust Federated Learning Through Personalization](https://onikle.com/articles/359482) (ICML 2021)
+* [Data-Free Knowledge Distillation for Heterogeneous Federated Learning](https://arxiv.org/abs/2105.10056) (ICML 2021)
+* [Bias-Variance Reduced Local SGD for Less Heterogeneous Federated Learning](https://arxiv.org/abs/2102.03198) (ICML 2021)
+* [Heterogeneity for the Win: One-Shot Federated Clustering](https://arxiv.org/abs/2103.00697) (ICML 2021)
+* [Clustered Sampling: Low-Variance and Improved Representativity for Clients Selection in Federated Learning](https://arxiv.org/abs/2105.05883) (ICML 2021)
+* [Federated Deep AUC Maximization for Hetergeneous Data with a Constant Communication Complexity](https://arxiv.org/abs/2102.04635) (ICML 2021)
+* [Federated Learning of User Verification Models Without Sharing Embeddings](https://arxiv.org/abs/2104.08776) (ICML 2021)
+* [One for One, or All for All: Equilibria and Optimality of Collaboration in Federated Learning](https://arxiv.org/abs/2103.03228) (ICML 2021)
 * [Ensemble Distillation for Robust Model Fusion in Federated Learning.](https://arxiv.org/pdf/2006.07242.pdf)
 * [XOR Mixup: Privacy-Preserving Data Augmentation for One-Shot Federated Learning.](https://arxiv.org/pdf/2006.05148.pdf)
 * [An Efficient Framework for Clustered Federated Learning.](https://arxiv.org/pdf/2006.04088.pdf)
@@ -133,6 +143,7 @@
 * [A Linear Speedup Analysis of Distributed Deep Learning with Sparse and Quantized Communication](https://papers.nips.cc/paper/7519-a-linear-speedup-analysis-of-distributed-deep-learning-with-sparse-and-quantized-communication) （NIPS 2018）
 * [Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning](https://openreview.net/forum?id=jDdzh5ul-d) (ICLR 2021)
 * [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/pdf/2007.07682.pdf)
+* [FL-NTK: A Neural Tangent Kernel-based Framework for Federated Learning Convergence Analysis](https://arxiv.org/abs/2105.05001) (ICML 2021)
 * [Federated Optimization for Heterogeneous Networks](https://arxiv.org/pdf/1812.06127)
 * [On the Convergence of FedAvg on Non-IID Data](https://arxiv.org/abs/1907.02189) [[OpenReview]](https://openreview.net/forum?id=HJxNAnVtDS)
 * [Communication Efficient Decentralized Training with Multiple Local Updates](https://arxiv.org/abs/1910.09126)
@@ -160,6 +171,7 @@
 * [Cooperative Learning via Federated Distillation over Fading Channels](https://arxiv.org/pdf/2002.01337.pdf)
 * [(*) Cronus: Robust and Heterogeneous Collaborative Learning with Black-Box Knowledge Transfer](https://arxiv.org/pdf/1912.11279.pdf)
 * [Federated Reinforcement Distillation with Proxy Experience Memory](https://arxiv.org/pdf/1907.06536.pdf)
+* [Federated Continual Learning with Weighted Inter-client Transfer](https://openreview.net/forum?id=xWr8qQCJU3m) (ICML 2021)
 
 ### 5.6 Graph Neural Network(GNN)
 * [SGNN: A Graph Neural Network Based Federated Learning Approach by Hiding Structure](https://ieeexplore.ieee.org/document/9005983) (Big Data)
@@ -227,6 +239,7 @@
 * [Uncertainty Principle for Communication Compression in Distributed and Federated Learning and the Search for an Optimal Compressor](https://arxiv.org/pdf/2002.08958.pdf)
 * [Dynamic Federated Learning](https://arxiv.org/pdf/2002.08782.pdf)
 * [Distributed Optimization over Block-Cyclic Data](https://arxiv.org/pdf/2002.07454.pdf)
+* [Federated Composite Optimization](https://arxiv.org/abs/2011.08474) (ICML 2021)
 * [Distributed Non-Convex Optimization with Sublinear Speedup under Intermittent Client Availability](https://arxiv.org/pdf/2002.07399.pdf)
 * [Federated Learning of a Mixture of Global and Local Models](https://arxiv.org/pdf/2002.05516.pdf)
 * [Faster On-Device Training Using New Federated Momentum Algorithm](https://arxiv.org/pdf/2002.02090.pdf)
@@ -302,6 +315,7 @@
 * [Asynchronous Federated Learning for Geospatial Applications](https://link.springer.com.remotexs.ntu.edu.sg/chapter/10.1007/978-3-030-14880-5_2) (ECML PKDD Workshop 2018） 
 * [Asynchronous Federated Optimization](https://arxiv.org/abs/1903.03934)
 * [Adaptive Federated Learning in Resource Constrained Edge Computing Systems](https://arxiv.org/abs/1804.05271) (IEEE Journal on Selected Areas in Communications, 2019）
+* [The Distributed Discrete Gaussian Mechanism for Federated Learning with Secure Aggregation](https://arxiv.org/abs/2102.06387) (ICML 2021)
 
 ### 8.3 Incentive Mechanism
 
