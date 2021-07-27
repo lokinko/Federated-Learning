@@ -440,6 +440,7 @@
 ## Part 12: FL system & Library & Courses
 ### 12.1 System
 * [Towards Federated Learning at Scale: System Design](https://arxiv.org/abs/1902.01046) **[Must Read]**
+* [Scaling Distributed Machine Learning with System and Algorithm Co-design](https://www.cs.cmu.edu/~muli/file/mu-thesis.pdf)
 * [Demonstration of Federated Learning in a Resource-Constrained Networked Environment](https://ieeexplore.ieee.org/document/8784064)
 * [Applied Federated Learning: Improving Google Keyboard Query Suggestions](https://arxiv.org/abs/1812.02903)
 * [Federated Learning and Differential Privacy: Software tools analysis, the Sherpa.ai FL framework and methodological guidelines for preserving data privacy](https://arxiv.org/abs/2007.00914)
@@ -457,6 +458,11 @@
 * [BAFFLE : Blockchain Based Aggregator Free Federated Learning](https://arxiv.org/pdf/1909.07452.pdf)
 * [Functional Federated Learning in Erlang (ffl-erl)](https://arxiv.org/pdf/1808.08143.pdf)
 * [HierTrain: Fast Hierarchical Edge AI Learning With Hybrid Parallelism in Mobile-Edge-Cloud Computing](https://arxiv.org/pdf/2003.09876.pdf)
+* [Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design](https://petuum.com/wp-content/uploads/2019/01/Orpheus.pdf)
+* [Scalable Distributed DNN Training using TensorFlow and CUDA-Aware MPI: Characterization, Designs, and Performance Evaluation](https://arxiv.org/abs/1810.11112)
+* [Optimized Broadcast for Deep Learning Workloads on Dense-GPU InfiniBand Clusters: MPI or NCCL?](https://arxiv.org/abs/1707.09414)
+* [Optimizing Network Performance for Distributed DNN Training on GPU Clusters: ImageNet/AlexNet Training in 1.5 Minutes](https://arxiv.org/abs/1902.06855)
+
 
 ### 12.2 Courses
 
@@ -567,9 +573,10 @@ Snips
 * [Federated Learning for Vision-and-Language Grounding Problems](http://web.pkusz.edu.cn/adsp/files/2019/11/AAAI-FenglinL.1027.pdf) (AAAI20)
 
 ### 14.4 Recommendation
-
- * [Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System](https://arxiv.org/abs/1901.09888)
- * [Federated Meta-Learning with Fast Convergence and Efficient Communication](https://arxiv.org/abs/1802.07876)
+* [Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System](https://arxiv.org/abs/1901.09888)
+* [Federated Meta-Learning with Fast Convergence and Efficient Communication](https://arxiv.org/abs/1802.07876)
+* [Secure Federated Matrix Factorization](https://arxiv.org/abs/1906.05108)
+* [DiFacto: Distributed Factorization Machines](https://www.cs.cmu.edu/~muli/file/difacto.pdf)
 
 ### 14.5 Industrial
 
