@@ -327,6 +327,10 @@
 * [Federated Learning for Edge Networks: Resource Optimization and Incentive Mechanism](https://arxiv.org/pdf/1911.05642.pdf)
 * [A Learning-based Incentive Mechanism forFederated Learning](https://www.u-aizu.ac.jp/~pengli/files/fl_incentive_iot.pdf)
 * [A Crowdsourcing Framework for On-Device Federated Learning](https://arxiv.org/pdf/1911.01046.pdf)
+* [Rewarding High-Quality Data via Influence Functions](https://arxiv.org/abs/1908.11598)
+* [Joint Service Pricing and Cooperative Relay Communication for Federated Learning](https://arxiv.org/abs/1811.12082)
+* [Measure Contribution of Participants in Federated Learning](https://arxiv.org/abs/1909.08525)
+* [DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-based Incentive](https://eprint.iacr.org/2018/679.pdf)
 
   
 ## Part 9: Vertical Federated Learning
@@ -339,7 +343,12 @@
 * [Multi-Participant Multi-Class Vertical Federated Learning](https://arxiv.org/pdf/2001.11154.pdf)
 * [A Communication-Efficient Collaborative Learning Framework for Distributed Features](https://arxiv.org/pdf/1912.11187.pdf)
 * [Asymmetrical Vertical Federated Learning](https://arxiv.org/pdf/2004.07427.pdf)
-[VAFL: a Method of Vertical Asynchronous Federated Learning](https://arxiv.org/abs/2007.06081)(ICML workshop on FL, 2020)
+* [VAFL: a Method of Vertical Asynchronous Federated Learning](https://arxiv.org/abs/2007.06081) (ICML workshop on FL, 2020)
+* [SplitFed: When Federated Learning Meets Split Learning](https://arxiv.org/abs/2004.12088v2)
+* [Privacy Enhanced Multimodal Neural Representations for Emotion Recognition](https://arxiv.org/abs/1910.13212)
+* [PrivyNet: A Flexible Framework for Privacy-Preserving Deep Neural Network Training](https://arxiv.org/abs/1709.06161)
+* [One Pixel Image and RF Signal Based Split Learning for mmWave Received Power Prediction](https://arxiv.org/abs/1911.01682)
+* [Stochastic Distributed Optimization for Machine Learning from Decentralized Features](https://arxiv.org/abs/1812.06415)
 
 ### Part 10: Wireless Communication and Cloud Computing
 
