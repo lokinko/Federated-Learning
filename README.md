@@ -429,13 +429,22 @@
 
 ### 11.2 Graph Neural Network(GNN)
 * [SGNN: A Graph Neural Network Based Federated Learning Approach by Hiding Structure](https://ieeexplore.ieee.org/document/9005983) (Big Data)
-* [FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation](https://arxiv.org/abs/2102.04925)
 * [GraphFederator: Federated Visual Analysis for Multi-party Graphs.](https://arxiv.org/abs/2008.11989)
 * [FedE: Embedding Knowledge Graphs in Federated Setting](https://arxiv.org/abs/2010.12882)
 * [ASFGNN: Automated Separated-Federated Graph Neural Network](https://arxiv.org/abs/2011.03248)
 * [GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification on Graphs](https://arxiv.org/abs/2012.04187)
 * [Peer-to-peer Federated Learning on Graphs](https://arxiv.org/abs/1901.11173)
 * [Towards Federated Graph Learning for Collaborative Financial Crimes Detection](https://arxiv.org/abs/1909.12946)
+* [Secure Deep Graph Generation with Link Differential Privacy](https://arxiv.org/abs/2005.00455v3) (IJCAI 2021)
+* [Locally Private Graph Neural Networks](https://arxiv.org/pdf/2006.05535.pdf) (CCS 2021)
+* [When Differential Privacy Meets Graph Neural Networks](https://arxiv.org/pdf/2006.05535v1.pdf)
+* [Releasing Graph Neural Networks with Differential Privacy](https://arxiv.org/abs/2109.08907)
+* [Vertically Federated Graph Neural Network for Privacy-Preserving Node Classification](https://arxiv.org/abs/2005.11903)
+* [FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation](https://arxiv.org/abs/2102.04925) (ICML 2021)
+* [Decentralized Federated Graph Neural Networks](https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_20.pdf) (IJCAI 2021)
+* [Federated Graph Classification over Non-IID Graphs](https://arxiv.org/abs/2106.13423) (NeurIPS 2021)
+* [SpreadGNN: Serverless Multi-task Federated Learning for Graph Neural Networks](https://arxiv.org/abs/2106.02743) (ICML 2021)
+* [FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks](https://arxiv.org/abs/2104.07145) (ICLR 2021)
 
 ## Part 12: FL system & Library & Courses
 ### 12.1 System
