@@ -60,6 +60,11 @@
 * [Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning](https://openreview.net/forum?id=jDdzh5ul-d) (ICLR 2021)
 * [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/pdf/2007.07682.pdf)
 * [FL-NTK: A Neural Tangent Kernel-based Framework for Federated Learning Convergence Analysis](https://arxiv.org/abs/2105.05001) (ICML 2021)
+* [Federated Multi-armed Bandits with Personalization](http://proceedings.mlr.press/v130/shi21c.html) (AISTATS 2021)
+* [Federated Learning with Compression: Unified Analysis and Sharp Guarantees](http://proceedings.mlr.press/v130/haddadpour21a.html) (AISTATS 2021)
+* [Convergence and Accuracy Trade-Offs in Federated Learning and Meta-Learning](http://proceedings.mlr.press/v130/charles21a.html) (AISTATS 2021)
+* [Towards Flexible Device Participation in Federated Learning]() (AISTATS 2021)
+* [Fed2: Feature-Aligned Federated Learning](https://dl.acm.org/doi/10.1145/3447548.3467309) (KDD 2021)
 * [Federated Optimization for Heterogeneous Networks](https://arxiv.org/pdf/1812.06127)
 * [On the Convergence of FedAvg on Non-IID Data](https://arxiv.org/abs/1907.02189) [[OpenReview]](https://openreview.net/forum?id=HJxNAnVtDS)
 * [Communication Efficient Decentralized Training with Multiple Local Updates](https://arxiv.org/abs/1910.09126)
@@ -75,6 +80,8 @@
 * [FedBN: Federated Learning on Non-IID Features via Local Batch Normalization](https://openreview.net/forum?id=6YEQUn0QICG) (ICLR 2021)
 * [FedMix: Approximation of Mixup under Mean Augmented Federated Learning](https://openreview.net/forum?id=Ogga20D2HO-) (ICLR 2021)
 * [HeteroFL: Computation and Communication Efficient Federated Learning for Heterogeneous Clients](https://openreview.net/forum?id=TNkPBBYFkXg) (ICLR 2021)
+* [FedRS: Federated Learning with Restricted Softmax for Label Distribution Non-IID Data](https://dl.acm.org/doi/10.1145/3447548.3467254) (KDD 2021)
+* [FedMatch: Federated Learning Over Heterogeneous Question Answering Data](https://dl.acm.org/doi/10.1145/3459637.3482345) (CIKM 2021)
 * [Decentralized Learning of Generative Adversarial Networks from Non-iid Data](https://arxiv.org/pdf/1905.09684.pdf)
 * [Towards Class Imbalance in Federated Learning](https://arxiv.org/pdf/2008.06217.pdf)
 * [Communication-Efficient On-Device Machine Learning:Federated Distillation and Augmentationunder Non-IID Private Data](https://arxiv.org/pdf/1811.11479v1.pdf)
@@ -170,7 +177,7 @@
 * [Exploiting Defenses against GAN-Based Feature Inference Attacks in Federated Learning.](https://arxiv.org/pdf/2004.12571.pdf)
 * [Byzantine-Resilient High-Dimensional SGD with Local Iterations on Heterogeneous Data.](https://arxiv.org/pdf/2006.13041.pdf)
 * [FedMGDA+: Federated Learning meets Multi-objective Optimization.](https://arxiv.org/pdf/2006.11489.pdf)
-* [Free-rider Attacks on Model Aggregation in Federated Learning.](https://arxiv.org/pdf/2006.11901.pdf)
+* [Free-rider Attacks on Model Aggregation in Federated Learning](http://proceedings.mlr.press/v130/fraboni21a.html) (AISTATS 2021)
 * [FDA3 : Federated Defense Against Adversarial Attacks for Cloud-Based IIoT Applications.](https://arxiv.org/pdf/2006.15632.pdf)
 * [Privacy-preserving Weighted Federated Learning within Oracle-Aided MPC Framework.](https://arxiv.org/pdf/2003.07630.pdf)
 * [BASGD: Buffered Asynchronous SGD for Byzantine Learning.](https://arxiv.org/pdf/2003.00937.pdf)
@@ -319,6 +326,8 @@
 
 ### 8.2 Incentive Mechanism
 * [Incentive Mechanism for Reliable Federated Learning: A Joint Optimization Approach to Combining Reputation and Contract Theory](https://ieeexplore.ieee.org/document/8832210)
+* [Towards Fair Federated Learning](https://dl.acm.org/doi/10.1145/3447548.3470814) (KDD 2021)
+* [Federated Adversarial Debiasing for Fair and Transferable Representations](https://dl.acm.org/doi/10.1145/3447548.3467281) (KDD 2021)
 * [Motivating Workers in Federated Learning: A Stackelberg Game Perspective](https://arxiv.org/abs/1908.03092)
 * [Incentive Design for Efficient Federated Learning in Mobile Networks: A Contract Theory Approach](https://arxiv.org/abs/1905.07479)
 * [Fair Resource Allocation in Federated Learning](https://arxiv.org/pdf/1905.10497v1.pdf)
@@ -338,6 +347,8 @@
 * [A Quasi-Newton Method Based Vertical Federated Learning Framework for Logistic Regression](https://arxiv.org/abs/1912.00513) （NIPS 2019 Workshop)
 * [SecureBoost: A Lossless Federated Learning Framework](https://arxiv.org/pdf/1901.08755.pdf)
 * [Parallel Distributed Logistic Regression for Vertical Federated Learning without Third-Party Coordinator](https://arxiv.org/pdf/1911.09824.pdf)
+* [AsySQN: Faster Vertical Federated Learning Algorithms with Better Computation Resource Utilization](https://dl.acm.org/doi/10.1145/3447548.3467169) (KDD 2021)
+* [Large-scale Secure XGB for Vertical Federated Learning](https://dl.acm.org/doi/10.1145/3459637.3482361) (CIKM 2021)
 * [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/pdf/1711.10677.pdf)
 * [Entity Resolution and Federated Learning get a Federated Resolution.](https://arxiv.org/pdf/1803.04035.pdf)
 * [Multi-Participant Multi-Class Vertical Federated Learning](https://arxiv.org/pdf/2001.11154.pdf)
@@ -445,6 +456,7 @@
 * [Federated Graph Classification over Non-IID Graphs](https://arxiv.org/abs/2106.13423) (NeurIPS 2021)
 * [SpreadGNN: Serverless Multi-task Federated Learning for Graph Neural Networks](https://arxiv.org/abs/2106.02743) (ICML 2021)
 * [FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks](https://arxiv.org/abs/2104.07145) (ICLR 2021)
+* [Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling](https://dl.acm.org/doi/10.1145/3447548.3467371) (KDD 2021)
 
 ## Part 12: FL system & Library & Courses
 ### 12.1 System
@@ -505,16 +517,19 @@
 * [cpSGD: Communication-efficient and differentially-private distributed SGD](https://arxiv.org/abs/1805.10559)
 * [Practical Secure Aggregation for Federated Learning on User-Held Data.](https://arxiv.org/pdf/1611.04482.pdf)（NIPS 2016 Workshop)
 * [Differentially Private Federated Learning: A Client Level Perspective.](https://arxiv.org/pdf/1712.07557.pdf)（NIPS 2017 Workshop)
-* [Exploiting Unintended Feature Leakage in Collaborative Learning.](https://arxiv.org/pdf/1805.04049.pdf)（S&P 2019）
-* [A Hybrid Approach to Privacy-Preserving Federated Learning.](https://arxiv.org/pdf/1812.03224.pdf)（AISec 2019）
-* [A generic framework for privacy preserving deep learning.](https://arxiv.org/pdf/1811.04017.pdf)（PPML 2018）
+* [Exploiting Unintended Feature Leakage in Collaborative Learning.](https://arxiv.org/pdf/1805.04049.pdf)(S&P 2019)
+* [A Hybrid Approach to Privacy-Preserving Federated Learning.](https://arxiv.org/pdf/1812.03224.pdf) (AISec 2019)
+* [A generic framework for privacy preserving deep learning.](https://arxiv.org/pdf/1811.04017.pdf) (PPML 2018)
 * [Federated Generative Privacy.](https://arxiv.org/pdf/1910.08385.pdf)（IJCAI 2019 FL Workshop)
 * [Enhancing the Privacy of Federated Learning with Sketching.](https://arxiv.org/pdf/1911.01812.pdf)
 * [https://aisec.cc/](https://arxiv.org/pdf/1912.05897.pdf)
+* [Federated f-Differential Privacy](http://proceedings.mlr.press/v130/zheng21a.html) (AISTATS 2021)
+* [Shuffled Model of Differential Privacy in Federated Learning](http://proceedings.mlr.press/v130/girgis21a.html) (AISTATS 2021)
+* [Differentially Private Federated Knowledge Graphs Embedding](https://dl.acm.org/doi/10.1145/3459637.3482252) (CIKM 2021)
 * [Anonymizing Data for Privacy-Preserving Federated Learning.](https://arxiv.org/pdf/2002.09096.pdf)
 * [Practical and Bilateral Privacy-preserving Federated Learning.](https://arxiv.org/pdf/2002.09843.pdf)
 * [Decentralized Policy-Based Private Analytics.](https://arxiv.org/pdf/2003.06612.pdf)
-* [FedSel: Federated SGD under Local Differential Privacy with Top-k Dimension Selection.](https://arxiv.org/pdf/2003.10637.pdf)（DASFAA 2020)
+* [FedSel: Federated SGD under Local Differential Privacy with Top-k Dimension Selection.](https://arxiv.org/pdf/2003.10637.pdf) (DASFAA 2020)
 * [Learn to Forget: User-Level Memorization Elimination in Federated Learning.](https://arxiv.org/pdf/2003.10933.pdf)
 * [LDP-Fed: Federated Learning with Local Differential Privacy.](https://arxiv.org/pdf/2006.03637.pdf)（EdgeSys 2020)
 * [PrivFL: Practical Privacy-preserving Federated Regressions on High-dimensional Data over Mobile Networks.](https://arxiv.org/pdf/2004.02264.pdf)
@@ -548,6 +563,7 @@
 ### 14.1 Healthcare
 * [HHHFL: Hierarchical Heterogeneous Horizontal Federated Learning for Electroencephalography](https://arxiv.org/abs/1909.05784) (NIPS 2019 Workshop)
 * [Learn Electronic Health Records by Fully Decentralized Federated Learning](https://arxiv.org/abs/1912.01792) (NIPS 2019 Workshop)
+* [FLOP: Federated Learning on Medical Datasets using Partial Networks](https://dl.acm.org/doi/10.1145/3447548.3467185) (KDD 2021)
 * [Patient Clustering Improves Efficiency of Federated Machine Learning to predict mortality and hospital stay time using distributed Electronic Medical Records](https://arxiv.org/ftp/arxiv/papers/1903/1903.09296.pdf) [[News]](https://venturebeat.com/2019/03/25/federated-learning-technique-predicts-hospital-stay-and-patient-mortality/)
 * [Federated learning of predictive models from federated Electronic Health Records.](https://www.ncbi.nlm.nih.gov/pubmed/29500022)
 * [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](https://arxiv.org/pdf/1907.09173.pdf)
