@@ -1,14 +1,5 @@
 # Federated Learning
 
->*人工智能（Artificial Intelligence, AI）进入以深度学习为主导的大数据时代，基于大数据的机器学习既推动了AI的蓬勃发展，也带来了一系列安全隐患。这些隐患来源于深度学习本身的学习机制，无论是在它的模型建造（训练）阶段，还是在模型推理和使用阶段。这些安全隐患如果被有意或无意地滥用，后果将十分严重。*
-
----
-
-**联邦学习是一种 <font color=#B22222>隐私保护、数据本地存储与计算</font> 的机器学习算法。**
-
-# 文献参考
-
-
 ## Part 1: Introduction
 * [Federated Learning Comic](https://federated.withgoogle.com/)
 * [Federated Learning: Collaborative Machine Learning without Centralized Training Data](http://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
