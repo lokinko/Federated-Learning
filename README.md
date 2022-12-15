@@ -615,7 +615,7 @@ Jiankai Sun, Weihao Gao, Hongyi Zhang, Junyuan Xie.[《Label Leakage and Protect
 ##### 华控清交 PrivPy 多方计算平台
 Yi Li, Wei Xu.[《PrivPy: General and Scalable Privacy-Preserving Data Mining》](https://dl.acm.org/doi/pdf/10.1145/3292500.3330920)
 
-##### 同盾科技 同盾志邦知识联邦平台
+##### 同盾科技 同盾智邦知识联邦平台
 Hongyu Li, Dan Meng, Hong Wang, Xiaolin Li.
 - [《Knowledge Federation: A Unified and Hierarchical Privacy-Preserving AI Framework》](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9194566)
 - [《FedMONN: Meta Operation Neural Network for Secure Federated Aggregation》](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9408024)
