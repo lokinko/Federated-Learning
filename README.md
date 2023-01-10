@@ -9,6 +9,7 @@
 * [Federated learning: distributed machine learning with data locality and privacy](https://blog.fastforwardlabs.com/2018/11/14/federated-learning.html)
 
 ## Part 2: Survey
+* [Towards Efficient Synchronous Federated Training: A Survey on System Optimization Strategies](https://ieeexplore.ieee.org/document/9780218)
 * [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873)
 * [Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://arxiv.org/abs/1907.09693)
 * [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/abs/1909.11875)
@@ -637,7 +638,8 @@ Tongxin Li, Yu Ding, Yulong Zhang, Tao Wei.[《gbdt-rs: Fast and Trustworthy Gra
 
 
 
-##### 香港理工大学
+##### 香港科技大学
+[《Pisces: Efficient Federated Learning via Guided Asynchronous Training》](https://dl.acm.org/doi/abs/10.1145/3542929.3563463)
 
 [《FedVision: An Online Visual Object Detection Platform Powered by Federated Learning》](https://ojs.aaai.org//index.php/AAAI/article/view/7021)
 
