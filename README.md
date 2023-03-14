@@ -691,3 +691,13 @@ Eugene Bagdasaryan, Andreas Veit, Yiqing Hua, Deborah Estrin, Vitaly Shmatikov.
 Ziteng Sun.
 
 [《Can you really backdoor federated learning?》](https://arxiv.org/abs/1911.07963)
+
+
+### 15.2 Flower 
+A unified approach to federated learning, analytics, and evaluation. Federate any workload, any ML framework, and any programming language.
+
+[Flower: A Friendly Federated Learning Research Framework](https://arxiv.org/abs/2007.14390)
+
+[GitHub](https://github.com/adap/flower)
+
+[Website](https://flower.dev/)
