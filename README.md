@@ -190,6 +190,7 @@
 
 ### 5.2 Data Privacy and Confidentiality
 
+* [Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off](https://arxiv.org/abs/2402.07002) [[Code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)] [SYSU, TAMU, HITSZ, ZSTU] (ICML 2025)
 * [Gradient-Leaks: Understanding and Controlling Deanonymization in Federated Learning](https://arxiv.org/abs/1805.05838) （NIPS 2019 Workshop)
 * [Quantification of the Leakage in Federated Learning](https://arxiv.org/pdf/1910.05467.pdf)
 
@@ -502,6 +503,7 @@
 
 ## Part 13: Secure Multi-party Computation(MPC)
 ### 13.1 Differential Privacy
+* [Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off](https://arxiv.org/abs/2402.07002) [[Code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)] [SYSU, TAMU, HITSZ, ZSTU] (ICML 2025)
 * [Learning Differentially Private Recurrent Language Models](https://arxiv.org/abs/1710.06963)
 * [Federated Learning with Bayesian Differential Privacy](https://arxiv.org/abs/1911.10071) （NIPS 2019 Workshop)
 * [Private Federated Learning with Domain Adaptation](https://arxiv.org/abs/1912.06733) （NIPS 2019 Workshop)
