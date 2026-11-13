@@ -470,7 +470,7 @@
 * [BAFFLE : Blockchain Based Aggregator Free Federated Learning](https://arxiv.org/pdf/1909.07452.pdf)
 * [Functional Federated Learning in Erlang (ffl-erl)](https://arxiv.org/pdf/1808.08143.pdf)
 * [HierTrain: Fast Hierarchical Edge AI Learning With Hybrid Parallelism in Mobile-Edge-Cloud Computing](https://arxiv.org/pdf/2003.09876.pdf)
-* [FRACTAL: A Decentralized Framework for Federated Learning and On-Device Model Training](https://github.com/AhmadHassan-BTed/FractalWorkspace): A decentralized framework for federated learning, distributed edge computing, and training models directly on Android and edge devices.
+* [FRACTAL: A Decentralized Framework for Federated Learning and On-Device Model Training](https://github.com/Fractal-Compute-Orchestrations/FractalWorkspace): A decentralized framework for federated learning, distributed edge computing, and training models directly on Android and edge devices.
 * [Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design](https://petuum.com/wp-content/uploads/2019/01/Orpheus.pdf)
 * [Scalable Distributed DNN Training using TensorFlow and CUDA-Aware MPI: Characterization, Designs, and Performance Evaluation](https://arxiv.org/abs/1810.11112)
 * [Optimized Broadcast for Deep Learning Workloads on Dense-GPU InfiniBand Clusters: MPI or NCCL?](https://arxiv.org/abs/1707.09414)
